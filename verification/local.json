@@ -1,0 +1,4297 @@
+{
+  "status": "PASS",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "started_utc": "2026-10-26T16:37:54Z",
+  "generation_run": false,
+  "network_required": false,
+  "stages": {
+    "model_conversion": {
+      "species": 51,
+      "transitions": 41,
+      "rules": 56,
+      "conversion_local_cases": 2420,
+      "admissible_local_cases": 1900,
+      "reference_local_cases": 1728,
+      "status": "PASS",
+      "sbml_sha256": "0be06df8664e0f6e187298753703110063d533384b14f22cabd4b569af06dd65",
+      "generated_sha256": "e15ee45915ca1ff81b363cdf24db1a4f4fab37f250e6b3e57cf8ff9ca52d744d",
+      "wall_seconds": 0.08430950000183657,
+      "reference_file_required": false
+    },
+    "bdd_basic": {
+      "mode": "basic",
+      "events": [
+        {
+          "label": "initial",
+          "seconds": 0.220326,
+          "count": 2,
+          "nodes": 13228
+        }
+      ],
+      "code_sha256": "4221b50922850693a060740429518ee97da3aea272d0996b35aa29e6570332ac",
+      "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "start_utc": "2026-10-26T16:37:55Z",
+      "kernel": {
+        "state_sets": 256,
+        "image_preimage_pairs": 8448
+      },
+      "domain": {
+        "domain_states": 14843406974976,
+        "natural_updates_checked": 46,
+        "atomic_clamps_checked": 2,
+        "preserved": true
+      },
+      "initial_fixed_points": 2,
+      "lower": [
+        {
+          "label": "PI3K",
+          "frames": 49,
+          "difference": [
+            "LATS",
+            "PI3K",
+            "YAP_TAZ"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "ITG_AB",
+          "frames": 37,
+          "difference": [
+            "ITG_AB"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "ZEB",
+          "frames": 38,
+          "difference": [
+            "ZEB",
+            "miR200"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "SNAIL",
+          "frames": 40,
+          "difference": [
+            "SNAIL"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "p120_AJ",
+          "frames": 37,
+          "difference": [
+            "p120_AJ"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "STAT3_NFkB_HIF1a",
+          "frames": 39,
+          "difference": [
+            "HIF1a",
+            "NFkB",
+            "STAT3"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "SLUG",
+          "frames": 53,
+          "difference": [
+            "SLUG"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "AKT",
+          "frames": 49,
+          "difference": [
+            "AKT"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "RAP1",
+          "frames": 40,
+          "difference": [
+            "RAP1"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "HGFR",
+          "frames": 51,
+          "difference": [
+            "BCat",
+            "HGFR",
+            "TCF_LEF"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "RAS",
+          "frames": 54,
+          "difference": [
+            "RAS"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "RAF1",
+          "frames": 60,
+          "difference": [
+            "RAF1"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "MEK",
+          "frames": 61,
+          "difference": [
+            "MEK"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "ERK",
+          "frames": 61,
+          "difference": [
+            "ERK",
+            "FAT4"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        }
+      ],
+      "status": "PASS",
+      "wall_seconds": 0.2248803330003284,
+      "cpu_seconds": 0.219398,
+      "peak_rss_bytes": 32915456,
+      "processes": 1,
+      "cost_usd": 0
+    },
+    "saved_certificates": {
+      "status": "PASS",
+      "claimed_minimum": 14,
+      "lower_disjoint_groups": 14,
+      "upper_S": [
+        "PI3K",
+        "ITG_AB",
+        "SNAIL",
+        "p120_AJ",
+        "SLUG",
+        "AKT",
+        "RAP1",
+        "RAS",
+        "HGFR",
+        "ERK",
+        "MEK",
+        "RAF1",
+        "miR200",
+        "NFkB"
+      ],
+      "initial_fixed_points": 2,
+      "initial_complete_enumeration_proof": true,
+      "cnf_to_model_local_cases": 1728,
+      "inductiveness_queries": 70,
+      "proof_tree_nodes": 75,
+      "unit_steps_checked": 2056,
+      "post_cube_states_checked": 1024,
+      "global_fair_convergence_nodes": 56,
+      "admissibility_local_cases": 324,
+      "controlled_projection_functions": 4,
+      "candidate_observation_bits": 37,
+      "corrupted_trace_rejected": true,
+      "checker_imports_producer_modules": false,
+      "same_process_generation_preceded_checker": false,
+      "independent_agent_review": false,
+      "Lean": false,
+      "wall_seconds": 0.07855833400390111,
+      "cpu_seconds": 0.11263,
+      "peak_rss_bytes": 28000256,
+      "processes": 1,
+      "cost_usd": 0,
+      "scope": "Saved certificates only; no generation. Four-bit atomic clamp, 37 candidate bits. See VERIFICATION-RECORD.md for separate-reviewer and proof-exposure limits; no Lean or native-51-species fairness/optimality claim."
+    },
+    "bdd_all_paths": {
+      "mode": "upper",
+      "events": [
+        {
+          "label": "initial",
+          "seconds": 0.022918,
+          "count": 2,
+          "nodes": 13228
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.028728,
+          "rounds": 1,
+          "states": 112,
+          "nodes": 20819
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.040443,
+          "rounds": 2,
+          "states": 567,
+          "nodes": 20819
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.057875,
+          "rounds": 3,
+          "states": 1773,
+          "nodes": 24374
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.094302,
+          "rounds": 4,
+          "states": 7491,
+          "nodes": 48019
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.141748,
+          "rounds": 5,
+          "states": 17009,
+          "nodes": 57112
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.183819,
+          "rounds": 6,
+          "states": 23282,
+          "nodes": 57112
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.221305,
+          "rounds": 7,
+          "states": 24344,
+          "nodes": 57112
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.260867,
+          "rounds": 8,
+          "states": 24344,
+          "nodes": 57112
+        },
+        {
+          "label": "stage0_fair_avoid",
+          "seconds": 0.290537,
+          "rounds": 1,
+          "states": 0,
+          "nodes": 66829
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.30043,
+          "rounds": 1,
+          "states": 24344,
+          "nodes": 79128
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.373139,
+          "rounds": 2,
+          "states": 54640,
+          "nodes": 83886
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.478435,
+          "rounds": 3,
+          "states": 151912,
+          "nodes": 126538
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.625734,
+          "rounds": 4,
+          "states": 301144,
+          "nodes": 167331
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.837653,
+          "rounds": 5,
+          "states": 1118956,
+          "nodes": 256098
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 1.254526,
+          "rounds": 6,
+          "states": 5446258,
+          "nodes": 468192
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 1.760454,
+          "rounds": 7,
+          "states": 10359532,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 2.152548,
+          "rounds": 8,
+          "states": 11834260,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 2.458097,
+          "rounds": 9,
+          "states": 11966266,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 2.751276,
+          "rounds": 10,
+          "states": 12029260,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 3.029099,
+          "rounds": 11,
+          "states": 12031132,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 3.309571,
+          "rounds": 12,
+          "states": 12031132,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 10.301253,
+          "rounds": 1,
+          "states": 12001084,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 24.450518,
+          "rounds": 2,
+          "states": 11956060,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 37.5975,
+          "rounds": 3,
+          "states": 11831836,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 45.861044,
+          "rounds": 4,
+          "states": 11719324,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 50.724173,
+          "rounds": 5,
+          "states": 4413764,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 51.628301,
+          "rounds": 6,
+          "states": 1978,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 51.682368,
+          "rounds": 7,
+          "states": 0,
+          "nodes": 548468
+        },
+        {
+          "label": "released_reach",
+          "seconds": 51.685714,
+          "rounds": 1,
+          "states": 1024,
+          "nodes": 548468
+        }
+      ],
+      "code_sha256": "4221b50922850693a060740429518ee97da3aea272d0996b35aa29e6570332ac",
+      "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "start_utc": "2026-10-26T16:37:55Z",
+      "domain": {
+        "domain_states": 14843406974976,
+        "natural_updates_checked": 46,
+        "atomic_clamps_checked": 2,
+        "preserved": true
+      },
+      "initial_fixed_points": 2,
+      "upper": {
+        "stage0_states": 24344,
+        "stage0_gate_states": 6086,
+        "stage1_states": 12031132,
+        "stage1_gate_states": 1024,
+        "released_states": 1024,
+        "fair_avoid_stage0": 0,
+        "fair_avoid_stage1": 0,
+        "all_prefix_safe": true,
+        "released_E1_invariant": true,
+        "all_reachable_admissible": true,
+        "S": [
+          "PI3K",
+          "ITG_AB",
+          "SNAIL",
+          "p120_AJ",
+          "SLUG",
+          "AKT",
+          "RAP1",
+          "RAS",
+          "HGFR",
+          "ERK",
+          "MEK",
+          "RAF1",
+          "miR200",
+          "NFkB"
+        ]
+      },
+      "status": "PASS",
+      "wall_seconds": 51.68771579199529,
+      "cpu_seconds": 50.760276000000005,
+      "peak_rss_bytes": 326565888,
+      "processes": 1,
+      "cost_usd": 0
+    },
+    "unique_observation": {
+      "status": "PASS",
+      "next15_code_or_proof_or_result_read": false,
+      "additional_agent_used": false,
+      "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "started_utc": "2026-10-26T16:38:47Z",
+      "domain": {
+        "domain_states": 14843406974976,
+        "natural_updates_checked": 46,
+        "atomic_clamps_checked": 2,
+        "preserved": true
+      },
+      "replayed_lower_witnesses": [
+        {
+          "label": "PI3K",
+          "frames": 49,
+          "difference": [
+            "LATS",
+            "PI3K",
+            "YAP_TAZ"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "ITG_AB",
+          "frames": 37,
+          "difference": [
+            "ITG_AB"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "ZEB",
+          "frames": 38,
+          "difference": [
+            "ZEB",
+            "miR200"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "SNAIL",
+          "frames": 40,
+          "difference": [
+            "SNAIL"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "p120_AJ",
+          "frames": 37,
+          "difference": [
+            "p120_AJ"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "STAT3_NFkB_HIF1a",
+          "frames": 39,
+          "difference": [
+            "HIF1a",
+            "NFkB",
+            "STAT3"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "SLUG",
+          "frames": 53,
+          "difference": [
+            "SLUG"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "AKT",
+          "frames": 49,
+          "difference": [
+            "AKT"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "RAP1",
+          "frames": 40,
+          "difference": [
+            "RAP1"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "HGFR",
+          "frames": 51,
+          "difference": [
+            "BCat",
+            "HGFR",
+            "TCF_LEF"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "RAS",
+          "frames": 54,
+          "difference": [
+            "RAS"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "RAF1",
+          "frames": 60,
+          "difference": [
+            "RAF1"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "MEK",
+          "frames": 61,
+          "difference": [
+            "MEK"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "ERK",
+          "frames": 61,
+          "difference": [
+            "ERK",
+            "FAT4"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        }
+      ],
+      "original_S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "common_sets": {
+        "phase0_states": 24344,
+        "phase0_gate": 6086,
+        "unreleased_phase1": 12031132,
+        "all_E1": 3997780,
+        "first_E1": 3997780,
+        "first_E1_equals_all_E1": true,
+        "released_E1_kernel": 14336,
+        "kernel_iteration_counts": [
+          12394496,
+          266368,
+          42688,
+          16160,
+          14336,
+          14336
+        ]
+      },
+      "classification": [
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1536,
+          "first_E1_guard_states": 1536,
+          "bad_first_E1_release_states": 1280,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 1152,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1520,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1760,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1536,
+          "first_E1_guard_states": 1536,
+          "bad_first_E1_release_states": 1280,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 1152,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1536,
+          "first_E1_guard_states": 1536,
+          "bad_first_E1_release_states": 1152,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 1088,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1280,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1632,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1536,
+          "first_E1_guard_states": 1536,
+          "bad_first_E1_release_states": 1152,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 1088,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1536,
+          "first_E1_guard_states": 1536,
+          "bad_first_E1_release_states": 1216,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 1120,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1376,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1680,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1536,
+          "first_E1_guard_states": 1536,
+          "bad_first_E1_release_states": 1216,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 1120,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 768,
+          "first_E1_guard_states": 768,
+          "bad_first_E1_release_states": 608,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 560,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 688,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 832,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 768,
+          "first_E1_guard_states": 768,
+          "bad_first_E1_release_states": 608,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 560,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 768,
+          "first_E1_guard_states": 768,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 736,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 768,
+          "first_E1_guard_states": 768,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 768,
+          "first_E1_guard_states": 768,
+          "bad_first_E1_release_states": 576,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 544,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 608,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 784,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 768,
+          "first_E1_guard_states": 768,
+          "bad_first_E1_release_states": 576,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "LATS",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 544,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1792,
+          "first_E1_guard_states": 1792,
+          "bad_first_E1_release_states": 1280,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1408,
+          "first_E1_guard_states": 1408,
+          "bad_first_E1_release_states": 1152,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 992,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1472,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1792,
+          "first_E1_guard_states": 1792,
+          "bad_first_E1_release_states": 1280,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1408,
+          "first_E1_guard_states": 1408,
+          "bad_first_E1_release_states": 1152,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1792,
+          "first_E1_guard_states": 1792,
+          "bad_first_E1_release_states": 1024,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1408,
+          "first_E1_guard_states": 1408,
+          "bad_first_E1_release_states": 1024,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1216,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1792,
+          "first_E1_guard_states": 1792,
+          "bad_first_E1_release_states": 1024,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1408,
+          "first_E1_guard_states": 1408,
+          "bad_first_E1_release_states": 1024,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1792,
+          "first_E1_guard_states": 1792,
+          "bad_first_E1_release_states": 1152,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1408,
+          "first_E1_guard_states": 1408,
+          "bad_first_E1_release_states": 1088,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 704,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1312,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1792,
+          "first_E1_guard_states": 1792,
+          "bad_first_E1_release_states": 1152,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1408,
+          "first_E1_guard_states": 1408,
+          "bad_first_E1_release_states": 1088,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 896,
+          "first_E1_guard_states": 896,
+          "bad_first_E1_release_states": 576,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 704,
+          "first_E1_guard_states": 704,
+          "bad_first_E1_release_states": 544,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 352,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 640,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 896,
+          "first_E1_guard_states": 896,
+          "bad_first_E1_release_states": 576,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 704,
+          "first_E1_guard_states": 704,
+          "bad_first_E1_release_states": 544,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 896,
+          "first_E1_guard_states": 896,
+          "bad_first_E1_release_states": 384,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 704,
+          "first_E1_guard_states": 704,
+          "bad_first_E1_release_states": 448,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 0,
+          "classification": "valid_optimal_14_set"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 448,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 896,
+          "first_E1_guard_states": 896,
+          "bad_first_E1_release_states": 384,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 704,
+          "first_E1_guard_states": 704,
+          "bad_first_E1_release_states": 448,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 896,
+          "first_E1_guard_states": 896,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 704,
+          "first_E1_guard_states": 704,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 192,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 544,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 896,
+          "first_E1_guard_states": 896,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 704,
+          "first_E1_guard_states": 704,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 1024,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1152,
+          "first_E1_guard_states": 1152,
+          "bad_first_E1_release_states": 1024,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1520,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1760,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 1024,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1152,
+          "first_E1_guard_states": 1152,
+          "bad_first_E1_release_states": 1024,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 896,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1152,
+          "first_E1_guard_states": 1152,
+          "bad_first_E1_release_states": 960,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1280,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1632,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 896,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1152,
+          "first_E1_guard_states": 1152,
+          "bad_first_E1_release_states": 960,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 960,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1152,
+          "first_E1_guard_states": 1152,
+          "bad_first_E1_release_states": 992,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1376,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 2048,
+          "first_E1_guard_states": 2048,
+          "bad_first_E1_release_states": 1680,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1280,
+          "first_E1_guard_states": 1280,
+          "bad_first_E1_release_states": 960,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "ZEB",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1152,
+          "first_E1_guard_states": 1152,
+          "bad_first_E1_release_states": 992,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 480,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 576,
+          "first_E1_guard_states": 576,
+          "bad_first_E1_release_states": 496,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 688,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 832,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 480,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HIF1a",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 576,
+          "first_E1_guard_states": 576,
+          "bad_first_E1_release_states": 496,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 384,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 576,
+          "first_E1_guard_states": 576,
+          "bad_first_E1_release_states": 448,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 512,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 736,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 384,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 576,
+          "first_E1_guard_states": 576,
+          "bad_first_E1_release_states": 448,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 448,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "BCat",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 576,
+          "first_E1_guard_states": 576,
+          "bad_first_E1_release_states": 480,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 608,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 1024,
+          "first_E1_guard_states": 1024,
+          "bad_first_E1_release_states": 784,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 640,
+          "first_E1_guard_states": 640,
+          "bad_first_E1_release_states": 448,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        },
+        {
+          "S": [
+            "AKT",
+            "FAT4",
+            "ITG_AB",
+            "MEK",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "STAT3",
+            "TCF_LEF",
+            "YAP_TAZ",
+            "miR200",
+            "p120_AJ"
+          ],
+          "all_E1_guard_states": 576,
+          "first_E1_guard_states": 576,
+          "bad_first_E1_release_states": 480,
+          "classification": "finite_E1_violation_after_first_E1_release"
+        }
+      ],
+      "full_candidate_checks": [
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "status": "PASS",
+          "all_path_result": {
+            "stage0_states": 24344,
+            "stage0_gate_states": 6086,
+            "stage1_states": 12031132,
+            "stage1_gate_states": 1024,
+            "released_states": 1024,
+            "fair_avoid_stage0": 0,
+            "fair_avoid_stage1": 0,
+            "all_prefix_safe": true,
+            "released_E1_invariant": true,
+            "all_reachable_admissible": true,
+            "S": [
+              "AKT",
+              "ERK",
+              "HGFR",
+              "ITG_AB",
+              "MEK",
+              "NFkB",
+              "PI3K",
+              "RAF1",
+              "RAP1",
+              "RAS",
+              "SLUG",
+              "SNAIL",
+              "miR200",
+              "p120_AJ"
+            ]
+          }
+        }
+      ],
+      "valid_optimal_sets": [
+        [
+          "AKT",
+          "ERK",
+          "HGFR",
+          "ITG_AB",
+          "MEK",
+          "NFkB",
+          "PI3K",
+          "RAF1",
+          "RAP1",
+          "RAS",
+          "SLUG",
+          "SNAIL",
+          "miR200",
+          "p120_AJ"
+        ]
+      ],
+      "deletion_certificates": [
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "AKT",
+          "violating_witness": "AKT",
+          "missed_difference": [
+            "AKT"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "ERK",
+          "violating_witness": "ERK",
+          "missed_difference": [
+            "ERK",
+            "FAT4"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "HGFR",
+          "violating_witness": "HGFR",
+          "missed_difference": [
+            "BCat",
+            "HGFR",
+            "TCF_LEF"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "ITG_AB",
+          "violating_witness": "ITG_AB",
+          "missed_difference": [
+            "ITG_AB"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "MEK",
+          "violating_witness": "MEK",
+          "missed_difference": [
+            "MEK"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "NFkB",
+          "violating_witness": "STAT3_NFkB_HIF1a",
+          "missed_difference": [
+            "HIF1a",
+            "NFkB",
+            "STAT3"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "PI3K",
+          "violating_witness": "PI3K",
+          "missed_difference": [
+            "LATS",
+            "PI3K",
+            "YAP_TAZ"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "RAF1",
+          "violating_witness": "RAF1",
+          "missed_difference": [
+            "RAF1"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "RAP1",
+          "violating_witness": "RAP1",
+          "missed_difference": [
+            "RAP1"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "RAS",
+          "violating_witness": "RAS",
+          "missed_difference": [
+            "RAS"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "SLUG",
+          "violating_witness": "SLUG",
+          "missed_difference": [
+            "SLUG"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "SNAIL",
+          "violating_witness": "SNAIL",
+          "missed_difference": [
+            "SNAIL"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "miR200",
+          "violating_witness": "ZEB",
+          "missed_difference": [
+            "ZEB",
+            "miR200"
+          ]
+        },
+        {
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ],
+          "removed_bit": "p120_AJ",
+          "violating_witness": "p120_AJ",
+          "missed_difference": [
+            "p120_AJ"
+          ]
+        }
+      ],
+      "verdict": {
+        "unique_optimal_14_set": true,
+        "optimal_14_set_count": 1,
+        "every_bit_essential_within_each_reported_set": true,
+        "all_original_bits_in_every_optimal_14_set": true,
+        "common_bits_of_optimal_sets": [
+          "AKT",
+          "ERK",
+          "HGFR",
+          "ITG_AB",
+          "MEK",
+          "NFkB",
+          "PI3K",
+          "RAF1",
+          "RAP1",
+          "RAS",
+          "SLUG",
+          "SNAIL",
+          "miR200",
+          "p120_AJ"
+        ],
+        "all_108_guards_reachable": true,
+        "scope": "specified Boolean current-value equality guards, fixed inputs and four-bit intervention; no general-guard or native-multivalued claim"
+      },
+      "events": [
+        {
+          "label": "phase0",
+          "seconds": 0.0440314169973135,
+          "rounds": 1,
+          "states": 112,
+          "nodes": 20797
+        },
+        {
+          "label": "phase0",
+          "seconds": 0.05541754199657589,
+          "rounds": 2,
+          "states": 567,
+          "nodes": 20797
+        },
+        {
+          "label": "phase0",
+          "seconds": 0.07251562499732245,
+          "rounds": 3,
+          "states": 1773,
+          "nodes": 24355
+        },
+        {
+          "label": "phase0",
+          "seconds": 0.10782416700385511,
+          "rounds": 4,
+          "states": 7491,
+          "nodes": 48000
+        },
+        {
+          "label": "phase0",
+          "seconds": 0.15492683299817145,
+          "rounds": 5,
+          "states": 17009,
+          "nodes": 57093
+        },
+        {
+          "label": "phase0",
+          "seconds": 0.19735716699506156,
+          "rounds": 6,
+          "states": 23282,
+          "nodes": 57093
+        },
+        {
+          "label": "phase0",
+          "seconds": 0.2372387079958571,
+          "rounds": 7,
+          "states": 24344,
+          "nodes": 57093
+        },
+        {
+          "label": "phase0",
+          "seconds": 0.2758975000033388,
+          "rounds": 8,
+          "states": 24344,
+          "nodes": 57093
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 0.28603308300080243,
+          "rounds": 1,
+          "states": 24344,
+          "nodes": 57442
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 0.3576323329907609,
+          "rounds": 2,
+          "states": 54640,
+          "nodes": 83849
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 0.466713207992143,
+          "rounds": 3,
+          "states": 151912,
+          "nodes": 121706
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 0.5995318749919534,
+          "rounds": 4,
+          "states": 301144,
+          "nodes": 158180
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 0.7993558750022203,
+          "rounds": 5,
+          "states": 1118956,
+          "nodes": 242208
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 1.1975929170002928,
+          "rounds": 6,
+          "states": 5446258,
+          "nodes": 443629
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 1.6826341249980032,
+          "rounds": 7,
+          "states": 10359532,
+          "nodes": 528003
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 2.0602957499941112,
+          "rounds": 8,
+          "states": 11834260,
+          "nodes": 528003
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 2.3401174579921644,
+          "rounds": 9,
+          "states": 11966266,
+          "nodes": 528003
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 2.6154903749993537,
+          "rounds": 10,
+          "states": 12029260,
+          "nodes": 528003
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 2.889493750000838,
+          "rounds": 11,
+          "states": 12031132,
+          "nodes": 528003
+        },
+        {
+          "label": "unreleased_phase1",
+          "seconds": 3.175424707995262,
+          "rounds": 12,
+          "states": 12031132,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 3.2001982499932637,
+          "rounds": 1,
+          "states": 24344,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 3.29640483300318,
+          "rounds": 2,
+          "states": 54640,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 3.4207126249966677,
+          "rounds": 3,
+          "states": 125488,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 3.5840372499951627,
+          "rounds": 4,
+          "states": 251496,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 3.8265085829916643,
+          "rounds": 5,
+          "states": 846544,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 4.272970457997872,
+          "rounds": 6,
+          "states": 4003872,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 4.773735291993944,
+          "rounds": 7,
+          "states": 8721774,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 5.1682141670025885,
+          "rounds": 8,
+          "states": 11342684,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 5.464892124990001,
+          "rounds": 9,
+          "states": 11922264,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 5.740092874999391,
+          "rounds": 10,
+          "states": 12008262,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 6.014626666990807,
+          "rounds": 11,
+          "states": 12030508,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 6.288348624992068,
+          "rounds": 12,
+          "states": 12031132,
+          "nodes": 528003
+        },
+        {
+          "label": "first_E1_phase1",
+          "seconds": 6.566615999996429,
+          "rounds": 13,
+          "states": 12031132,
+          "nodes": 528003
+        },
+        {
+          "label": "released_E1_kernel",
+          "seconds": 6.595417874996201,
+          "rounds": 1,
+          "states": 12394496
+        },
+        {
+          "label": "released_E1_kernel",
+          "seconds": 6.636871916998643,
+          "rounds": 2,
+          "states": 266368
+        },
+        {
+          "label": "released_E1_kernel",
+          "seconds": 6.667843167000683,
+          "rounds": 3,
+          "states": 42688
+        },
+        {
+          "label": "released_E1_kernel",
+          "seconds": 6.700106457996299,
+          "rounds": 4,
+          "states": 16160
+        },
+        {
+          "label": "released_E1_kernel",
+          "seconds": 6.727602166996803,
+          "rounds": 5,
+          "states": 14336
+        },
+        {
+          "label": "released_E1_kernel",
+          "seconds": 6.755792916999781,
+          "rounds": 6,
+          "states": 14336
+        },
+        {
+          "label": "safety_classification",
+          "seconds": 6.772420708002755,
+          "family": 108,
+          "unsafe": 107,
+          "survivors": 1
+        },
+        {
+          "label": "candidate_full_check",
+          "seconds": 6.772453666999354,
+          "S": [
+            "AKT",
+            "ERK",
+            "HGFR",
+            "ITG_AB",
+            "MEK",
+            "NFkB",
+            "PI3K",
+            "RAF1",
+            "RAP1",
+            "RAS",
+            "SLUG",
+            "SNAIL",
+            "miR200",
+            "p120_AJ"
+          ]
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 6.778020999990986,
+          "rounds": 1,
+          "states": 112,
+          "nodes": 528003
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 6.807136041999911,
+          "rounds": 2,
+          "states": 567,
+          "nodes": 528003
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 6.843578416999662,
+          "rounds": 3,
+          "states": 1773,
+          "nodes": 528003
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 6.898447083003703,
+          "rounds": 4,
+          "states": 7491,
+          "nodes": 528003
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 6.961535666996497,
+          "rounds": 5,
+          "states": 17009,
+          "nodes": 528003
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 7.0218656249926426,
+          "rounds": 6,
+          "states": 23282,
+          "nodes": 528003
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 7.077629374995013,
+          "rounds": 7,
+          "states": 24344,
+          "nodes": 528003
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 7.138880041995435,
+          "rounds": 8,
+          "states": 24344,
+          "nodes": 528003
+        },
+        {
+          "label": "stage0_fair_avoid",
+          "seconds": 7.16679249999288,
+          "rounds": 1,
+          "states": 0,
+          "nodes": 528003
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 7.175443332991563,
+          "rounds": 1,
+          "states": 24344,
+          "nodes": 528003
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 7.264127374990494,
+          "rounds": 2,
+          "states": 54640,
+          "nodes": 528003
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 7.394246500000008,
+          "rounds": 3,
+          "states": 151912,
+          "nodes": 528003
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 7.5635970000003,
+          "rounds": 4,
+          "states": 301144,
+          "nodes": 528003
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 7.801517542000511,
+          "rounds": 5,
+          "states": 1118956,
+          "nodes": 528003
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 8.279033041995717,
+          "rounds": 6,
+          "states": 5446258,
+          "nodes": 528003
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 8.865071583000827,
+          "rounds": 7,
+          "states": 10359532,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 9.301329458001419,
+          "rounds": 8,
+          "states": 11834260,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 9.670890749999671,
+          "rounds": 9,
+          "states": 11966266,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 9.993005041993456,
+          "rounds": 10,
+          "states": 12029260,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 10.307822167000268,
+          "rounds": 11,
+          "states": 12031132,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 10.630148582989932,
+          "rounds": 12,
+          "states": 12031132,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 17.46695158300281,
+          "rounds": 1,
+          "states": 12001084,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 30.414853875001427,
+          "rounds": 2,
+          "states": 11956060,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 41.79584749999049,
+          "rounds": 3,
+          "states": 11831836,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 51.64052983299189,
+          "rounds": 4,
+          "states": 11719324,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 56.856748207996134,
+          "rounds": 5,
+          "states": 4413764,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 57.73075537499972,
+          "rounds": 6,
+          "states": 1978,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 57.78625804200419,
+          "rounds": 7,
+          "states": 0,
+          "nodes": 548468
+        },
+        {
+          "label": "released_reach",
+          "seconds": 57.78980716699152,
+          "rounds": 1,
+          "states": 1024,
+          "nodes": 548468
+        }
+      ],
+      "wall_seconds": 57.79217337499722,
+      "cpu_seconds": 56.624204999999996,
+      "peak_rss_bytes": 337559552,
+      "processes": 1,
+      "cost_usd": 0,
+      "code_sha256": "e9cb1a2405ed91028ceaf938224987b6f25636a890b2c5395c1a5db63e96c60e"
+    },
+    "kernel_audit": {
+      "start_utc": "2026-10-26T16:39:45Z",
+      "checker_sha256": "4221b50922850693a060740429518ee97da3aea272d0996b35aa29e6570332ac",
+      "audit_sha256": "92051525ba3b81e6a28bf920d42102f0833cda9a821cb502200b7518c01d570d",
+      "fairness": {
+        "explicit_SCC_comparisons": 2048,
+        "nonempty_fair_sets": 1287,
+        "empty_fair_sets": 761
+      },
+      "formulas": {
+        "rules": 56,
+        "local_truth_table_rows": 1728
+      },
+      "negative_controls": [
+        {
+          "mutation": "wrong_initial",
+          "rejected": true,
+          "reason": "initial frame"
+        },
+        {
+          "mutation": "wrong_update_bit",
+          "rejected": true,
+          "reason": "trace transition mismatch PI3K frame 2"
+        },
+        {
+          "mutation": "omit_immediate_phase_switch",
+          "rejected": true,
+          "reason": "first switch is immediate"
+        },
+        {
+          "mutation": "incorrect_release_assignment",
+          "rejected": true,
+          "reason": "release assignment"
+        },
+        {
+          "mutation": "missing_difference",
+          "rejected": true,
+          "reason": "difference mismatch"
+        },
+        {
+          "mutation": "overlapping_witness_differences",
+          "rejected": true,
+          "reason": "differences not pairwise disjoint"
+        },
+        {
+          "mutation": "omit_one_initial_model",
+          "rejected": true,
+          "reason": "complete M3 fixed-point set mismatch"
+        },
+        {
+          "mutation": "unchanged_legacy_witnesses",
+          "rejected": true,
+          "reason": "trace outside admissible domain"
+        },
+        {
+          "mutation": "omit_FAK_SRC_b2_clamp",
+          "rejected": true,
+          "reason": "atomic corrected clamp leaves admissible domain"
+        }
+      ],
+      "previous_comparison": {
+        "same_S": true,
+        "same_initial_models": true,
+        "rows": [
+          {
+            "label": "PI3K",
+            "trace_changed": false,
+            "old_frames": 49,
+            "new_frames": 49,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "ITG_AB",
+            "trace_changed": false,
+            "old_frames": 37,
+            "new_frames": 37,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "ZEB",
+            "trace_changed": false,
+            "old_frames": 38,
+            "new_frames": 38,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "SNAIL",
+            "trace_changed": false,
+            "old_frames": 40,
+            "new_frames": 40,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "p120_AJ",
+            "trace_changed": false,
+            "old_frames": 37,
+            "new_frames": 37,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "STAT3_NFkB_HIF1a",
+            "trace_changed": false,
+            "old_frames": 39,
+            "new_frames": 39,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "SLUG",
+            "trace_changed": false,
+            "old_frames": 53,
+            "new_frames": 53,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "AKT",
+            "trace_changed": false,
+            "old_frames": 49,
+            "new_frames": 49,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "RAP1",
+            "trace_changed": false,
+            "old_frames": 40,
+            "new_frames": 40,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "HGFR",
+            "trace_changed": true,
+            "old_frames": 52,
+            "new_frames": 51,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 36,
+            "old_inadmissible_frames": 36,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "RAS",
+            "trace_changed": true,
+            "old_frames": 55,
+            "new_frames": 54,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 37,
+            "old_inadmissible_frames": 37,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "RAF1",
+            "trace_changed": true,
+            "old_frames": 61,
+            "new_frames": 60,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 38,
+            "old_inadmissible_frames": 38,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "MEK",
+            "trace_changed": true,
+            "old_frames": 62,
+            "new_frames": 61,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 39,
+            "old_inadmissible_frames": 39,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "ERK",
+            "trace_changed": true,
+            "old_frames": 62,
+            "new_frames": 61,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 40,
+            "old_inadmissible_frames": 40,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          }
+        ],
+        "changed_labels": [
+          "HGFR",
+          "RAS",
+          "RAF1",
+          "MEK",
+          "ERK"
+        ]
+      },
+      "status": "PASS",
+      "wall_seconds": 0.2026133750041481,
+      "cpu_seconds": 0.189531,
+      "peak_rss_bytes": 32292864,
+      "processes": 1,
+      "cost_usd": 0
+    }
+  },
+  "negative_controls": [
+    {
+      "mutation": "trace_bit",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "release_assignment",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "proof_reason",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "sensor_count",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "cnf_model_binding",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "sbml_source_hash",
+      "checker": "model_conversion",
+      "rejected": true
+    },
+    {
+      "mutation": "derived_formula",
+      "checker": "model_conversion",
+      "rejected": true
+    },
+    {
+      "mutation": "comparison_truth_hash",
+      "checker": "model_conversion",
+      "rejected": true
+    },
+    {
+      "mutation": "python_-O",
+      "rejected": true
+    },
+    {
+      "mutation": "witness_file_hash",
+      "rejected": true
+    }
+  ],
+  "manifest_files": 40,
+  "wall_seconds": 111.46589858300285,
+  "max_parallel_compute_processes": 1
+}

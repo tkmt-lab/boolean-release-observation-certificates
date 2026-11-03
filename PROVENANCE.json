@@ -1,0 +1,349 @@
+{
+  "version": "1.0.0",
+  "release_date": "2026-11-04",
+  "source_commit": "056d17b157f8a8388b4dd70cd205a2cb8e812ccf",
+  "review_commit": "93d54712a",
+  "files": [
+    {
+      "commit": "edb270047",
+      "source_path": "studies/R030/publication-2026-10-26/packet/Apache-2.0.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "commit": "edb270047",
+      "source_path": "studies/R030/publication-2026-10-26/packet/CC-BY-4.0.txt",
+      "size": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "commit": "93d54712a",
+      "source_path": "studies/R031/independent-kmin14-revised-2026-10-27/inputs/witnesses.json",
+      "size": 111755,
+      "sha256": "ca4382373e9c040e6eff43c15762d5c9bf805f2915bded8e892fb3c1c5576139"
+    },
+    {
+      "commit": "93d54712a",
+      "source_path": "studies/R031/independent-kmin14-revised-2026-10-27/inputs/prior-witnesses.json",
+      "size": 105775,
+      "sha256": "3152df8cc8d6a4c83ba6c48bc8fc8722b53ad69f64dd12810d5cc672f66d9b73"
+    },
+    {
+      "commit": "056d17b157f8a8388b4dd70cd205a2cb8e812ccf",
+      "source_path": "studies/R031/next9-2026-10-27/packet/input/initial-fixed-points.json",
+      "size": 34149,
+      "sha256": "1cbec3ad0d2de3b2791f0e6ba13120fe7a14a7ccedbf94acb00336b92b0d6938"
+    },
+    {
+      "commit": "056d17b157f8a8388b4dd70cd205a2cb8e812ccf",
+      "source_path": "studies/R031/next9-2026-10-27/packet/input/liveness-result.json",
+      "size": 13969,
+      "sha256": "2ebaa87a20530af8e4ca9766b6cd5ee10b9c3ffdb0be0bedbfe01299d830b75e"
+    },
+    {
+      "commit": "056d17b157f8a8388b4dd70cd205a2cb8e812ccf",
+      "source_path": "studies/R031/next9-2026-10-27/packet/lower-result.json",
+      "size": 108235,
+      "sha256": "a7d82aef769a69d79f4a747b27eab718b0e55d1f5e4c0f61ad09028b28c539ac"
+    },
+    {
+      "commit": "056d17b157f8a8388b4dd70cd205a2cb8e812ccf",
+      "source_path": "studies/R031/next9-2026-10-27/packet/trial3-result.json",
+      "size": 265801,
+      "sha256": "65aeff47a3512a207d13095d6c5e841352dd770e078dd04ad9716b95b57bb9ae"
+    },
+    {
+      "commit": "056d17b157f8a8388b4dd70cd205a2cb8e812ccf",
+      "source_path": "studies/R031/next9-2026-10-27/packet/SPEC.md",
+      "size": 4249,
+      "sha256": "123b2ea72716fa61f2cd13ef89fc8f8e9f5ebce531494319642fc7c270f39f6b"
+    },
+    {
+      "commit": "93d54712a",
+      "source_path": "studies/R031/independent-kmin14-revised-2026-10-27/check.py",
+      "size": 20944,
+      "sha256": "862e2d7930be0dd2ffa70022c18f3279074b9b04d121bb66e0140c6767945104"
+    },
+    {
+      "commit": "93d54712a",
+      "source_path": "studies/R031/independent-kmin14-revised-2026-10-27/audit.py",
+      "size": 7948,
+      "sha256": "2973c4d06230148390ea528c2a9285e59f1a9a7103554f1b93fdd4e65ec57966"
+    },
+    {
+      "commit": "056d17b157f8a8388b4dd70cd205a2cb8e812ccf",
+      "source_path": "studies/R031/next9-2026-10-27/packet/check.py",
+      "size": 12736,
+      "sha256": "a18ba03ae624b6fd572690974b3e06ef85668f5dad6657a5552b7eed57d0aa2d"
+    }
+  ],
+  "adaptations": [
+    "Paths and explicit output arguments made standalone. Later source migration replaces the model input with a verified BioModels derivation; other mathematical inputs remain unchanged.",
+    "BDD RSS reporting corrected to bytes on Linux as well as macOS.",
+    "AST checker rejects optimized Python, explicitly checks immediate phase switches and links reported release_state to the actual release frame.",
+    "No producer, SAT search, model discovery or certificate regeneration is run by verify.py.",
+    "SBML source converted with explicit prefix-decoding and unit-step threshold semantics; full local Boolean comparison recorded.",
+    "Saved CNF functions decoded in certificate order, exhaustively bound to SBML-derived functions, then used to reconstruct expected CNFs; all saved proofs unchanged.",
+    "Model conversion and CNF binding negative controls added; normal verification regenerates formulas in memory only."
+  ],
+  "editorial_followup": {
+    "commit": "41f2a7201",
+    "source_path": "studies/R005/r031-q2-final-novelty-2026-10-27/public-text-review.md",
+    "applied": "English/Japanese openings and acknowledgments; static current-value guard scope, five existing readouts, prior-method attribution, no priority claim. Reviewer-completion status updated from the actual revised verification."
+  },
+  "source_change": {
+    "previous_packet_commit": "2a073635d",
+    "task_input_commit": "d51f8eda06f7cc920a95470e58b0f1c047607ae5",
+    "source": "BioModels MODEL2004040001",
+    "retrievals": "sources/retrievals.json",
+    "conversion": "scripts/convert_model.py",
+    "generated_model": "inputs/biomodels-derived.bnet",
+    "comparison_record": "verification/model-comparison.json",
+    "comparison_functions": 56,
+    "comparison_assignments": 1728,
+    "difference_count": 0,
+    "old_reference_bundled": false,
+    "mathematical_certificates_unchanged": true,
+    "redistribution_hold": "resolved"
+  },
+  "uniqueness_addition": {
+    "input_packet_commit": "8feb100b7",
+    "instruction_commit": "ba849a8bbc0eec557714b6255a92ed31781f65bd",
+    "independent_script_original_sha256": "27c465236d3cfaae418ba9ece764f52213a01331e109734c6d075438c91e23f3",
+    "raw_result_sha256": "cc641a7a45580df6b243d7bd82e908aaa48052e93264b0e103ded56c1e9e9f23",
+    "next15_code_proof_result_read": false,
+    "additional_agent_used": false,
+    "algorithm": "own ROBDD full first-E1 reachability, greatest released E1 invariant, enumeration of 108 candidates and all-path sufficiency check",
+    "adaptation": "one verdict key renamed to restrict its quantifier to optimal 14-sets; algorithm unchanged",
+    "full_packet_replay": "PASS; one expressly authorized additional clean-clone run, one compute process, zero cost, no publication",
+    "clean_clone_input_manifest_sha256": "9cfb1ca847e5f5ae78ee255dc2994122a7575767682a58bb007b955a4853a673"
+  },
+  "release_finalization": {
+    "input_commit": "ce0f9b404dec0cbd66e0030fb40dca915e98ae4c",
+    "date": "2026-11-04",
+    "previous_candidate_version": "0.1.0-candidate",
+    "previous_scheduled_date": "2026-11-02",
+    "hash_scope": "Current packet files except PROVENANCE.json and MANIFEST.json; original source-file hashes above are historical and unchanged.",
+    "excluded_from_this_hash_list": [
+      "PROVENANCE.json",
+      "MANIFEST.json"
+    ],
+    "files": [
+      {
+        "path": ".github/workflows/verify.yml",
+        "size": 618,
+        "sha256": "63f1201deaf76ffa70e709c7af6a8024162606128e7f0d0491c47407ff22f187"
+      },
+      {
+        "path": "Apache-2.0.txt",
+        "size": 11358,
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "CC-BY-4.0.txt",
+        "size": 18657,
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+      },
+      {
+        "path": "CITATION.cff",
+        "size": 956,
+        "sha256": "7aa21f3e2a16467417fd5d90f57d108f6da634c6ca8e9165da64db437675fcce"
+      },
+      {
+        "path": "DEPENDENCIES.json",
+        "size": 425,
+        "sha256": "ffc538117b1d1dd6ff18aebe98a8622ab0dc7db754e40b625259ff0d18f3174d"
+      },
+      {
+        "path": "LICENSE",
+        "size": 1730,
+        "sha256": "5e1c762d32a8e83c5ded80c532d904478cb1ac2ca56198d35ca64510e1a46205"
+      },
+      {
+        "path": "MODEL-CONVERSION.md",
+        "size": 4910,
+        "sha256": "8bd28d703bc82f1e1d8c4261eb43906b7b3f78533ce98eddb6a73bf8ef8340c6"
+      },
+      {
+        "path": "OPTIMAL-SET.md",
+        "size": 4053,
+        "sha256": "892912846d951fbfed7b53abbf8919bfd66ef02b3d6ab0fed1ace1818e4fb079"
+      },
+      {
+        "path": "README.ja.md",
+        "size": 7830,
+        "sha256": "4f53ec91ee2f4695b3a7cf2b3c03a937bf4f8dbe2884d4f53c1b5530c367e0b0"
+      },
+      {
+        "path": "README.md",
+        "size": 7805,
+        "sha256": "5496ee568489381bae57c07215f90e41fe4c07db5af3cfcea94c78d1d1b08605"
+      },
+      {
+        "path": "SOURCES.md",
+        "size": 4317,
+        "sha256": "739139a3545a5a650bc46f9f6733893f20940722f4372fbdf6b29bf701ad1883"
+      },
+      {
+        "path": "SPEC.md",
+        "size": 5334,
+        "sha256": "39c63a2f481c34b925db4359c13a0d4202c2e99032225a2633dc7d5ced745457"
+      },
+      {
+        "path": "THIRD-PARTY-NOTICES.md",
+        "size": 3006,
+        "sha256": "db26fc122dd93caac8921c64620858231f49c32af4476849f77237bb8a8998c1"
+      },
+      {
+        "path": "VERIFICATION-RECORD.md",
+        "size": 8973,
+        "sha256": "03819953b9973a4873996260ccf66ee1af75c71a2f7bb7a3a7ebf1ba4c60efe9"
+      },
+      {
+        "path": "VERIFY.md",
+        "size": 4788,
+        "sha256": "94f2f5c1dea85f626e5a1a66d6770f01637254c0063a4b3b529c18a96d8d0164"
+      },
+      {
+        "path": "certificates/initial-fixed-points.json",
+        "size": 34149,
+        "sha256": "1cbec3ad0d2de3b2791f0e6ba13120fe7a14a7ccedbf94acb00336b92b0d6938"
+      },
+      {
+        "path": "certificates/liveness.json",
+        "size": 13969,
+        "sha256": "2ebaa87a20530af8e4ca9766b6cd5ee10b9c3ffdb0be0bedbfe01299d830b75e"
+      },
+      {
+        "path": "certificates/lower-result.json",
+        "size": 108235,
+        "sha256": "a7d82aef769a69d79f4a747b27eab718b0e55d1f5e4c0f61ad09028b28c539ac"
+      },
+      {
+        "path": "certificates/optimal-sets.json",
+        "size": 54700,
+        "sha256": "16fdc8e67b6dc9480f5349db4fee50f20d0e10fb9caf827001a49eeb6f266266"
+      },
+      {
+        "path": "certificates/upper-result.json",
+        "size": 265801,
+        "sha256": "65aeff47a3512a207d13095d6c5e841352dd770e078dd04ad9716b95b57bb9ae"
+      },
+      {
+        "path": "claims.json",
+        "size": 6376,
+        "sha256": "d80a4f9fb658692f7c569567f68112b36f90ec625f176281097bff043559a067"
+      },
+      {
+        "path": "inputs/biomodels-derived.bnet",
+        "size": 2401,
+        "sha256": "e15ee45915ca1ff81b363cdf24db1a4f4fab37f250e6b3e57cf8ff9ca52d744d"
+      },
+      {
+        "path": "inputs/prior-witnesses.json",
+        "size": 105775,
+        "sha256": "3152df8cc8d6a4c83ba6c48bc8fc8722b53ad69f64dd12810d5cc672f66d9b73"
+      },
+      {
+        "path": "inputs/witnesses.json",
+        "size": 111755,
+        "sha256": "ca4382373e9c040e6eff43c15762d5c9bf805f2915bded8e892fb3c1c5576139"
+      },
+      {
+        "path": "licensing/sources.json",
+        "size": 4337,
+        "sha256": "852244aee3bbde2f9e9ceb8611202d8ea2e2d30a2899a3370a929dbffffbeac4"
+      },
+      {
+        "path": "scripts/bdd_check.py",
+        "size": 20870,
+        "sha256": "4221b50922850693a060740429518ee97da3aea272d0996b35aa29e6570332ac"
+      },
+      {
+        "path": "scripts/certificate_check.py",
+        "size": 15369,
+        "sha256": "7531eef59ec58e94f5ea81f7fe7e7736cea6f1bfbea338035bd31ecca10c5a1b"
+      },
+      {
+        "path": "scripts/convert_model.py",
+        "size": 9367,
+        "sha256": "2b65a0b97c7b04126512305bfc16f57a6fa9241f91881aa7bccced319d51fcfd"
+      },
+      {
+        "path": "scripts/kernel_audit.py",
+        "size": 8072,
+        "sha256": "92051525ba3b81e6a28bf920d42102f0833cda9a821cb502200b7518c01d570d"
+      },
+      {
+        "path": "scripts/unique_check.py",
+        "size": 7041,
+        "sha256": "85d8d76e003c493f08e369075a22fb6ace38236f8c2447fa72702a0c4f062c0d"
+      },
+      {
+        "path": "sources/Selvaggio_etal_2020.sbml",
+        "size": 210053,
+        "sha256": "0be06df8664e0f6e187298753703110063d533384b14f22cabd4b569af06dd65"
+      },
+      {
+        "path": "sources/files.json",
+        "size": 419,
+        "sha256": "fcecc6b20aeece728d354fd39986e46397d9876978e82913c057ad17db74e26b"
+      },
+      {
+        "path": "sources/model-metadata.json",
+        "size": 5082,
+        "sha256": "ddc4226da43c9078caa7d677ea2cc4a7e8b85cbd0ac830ddf2465670adaf2526"
+      },
+      {
+        "path": "sources/retrievals.json",
+        "size": 2645,
+        "sha256": "54ea527d2c54f1ac7ae3c55d5db9795650a2cd9c25acd00f405721651cad0b46"
+      },
+      {
+        "path": "verification/biomodels-input-manifest.json",
+        "size": 5617,
+        "sha256": "0a943aeecd5360ed68ac7cef996113986f1d119d48da14a97fb731353bec1f66"
+      },
+      {
+        "path": "verification/biomodels-local.json",
+        "size": 22420,
+        "sha256": "b432e43f4c9d0c26e19bd58799d0fa196416af36bd58c820da23fc8c3943526a"
+      },
+      {
+        "path": "verification/editorial-input-manifest.json",
+        "size": 6611,
+        "sha256": "469e6d7a780dc431314a4546fe48fd3330832f09bfa3c067b63dabc3b41945df"
+      },
+      {
+        "path": "verification/editorial-local.json",
+        "size": 106087,
+        "sha256": "ca270c1ceb3b1b5d28f92c9247417fc592670ea0c92f8af4821eba226f8bebfa"
+      },
+      {
+        "path": "verification/input-manifest.json",
+        "size": 6266,
+        "sha256": "9cfb1ca847e5f5ae78ee255dc2994122a7575767682a58bb007b955a4853a673"
+      },
+      {
+        "path": "verification/local.json",
+        "size": 106100,
+        "sha256": "c4fad67c2a7f6d82f6b8740cfb92dfbe5255f6531984527fa819872ff6a335a9"
+      },
+      {
+        "path": "verification/model-comparison.json",
+        "size": 13890,
+        "sha256": "e61b6a1b9bf7ceb2a90fe3ac2317695ad5abfd32d3f4f89316c36b167b121a4e"
+      },
+      {
+        "path": "verification/uniqueness-local.json",
+        "size": 69946,
+        "sha256": "6ba5a4e67b1d8fd79e72bf0c86ebaf98a99ffd11bf85e0556d38265675739069"
+      },
+      {
+        "path": "verify.py",
+        "size": 10598,
+        "sha256": "2103c973e245924c30e4d7e241f854e6385b1d0459a4367b3d0e6b9b4bcfaab9"
+      }
+    ]
+  }
+}

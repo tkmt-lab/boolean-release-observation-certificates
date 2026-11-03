@@ -1,0 +1,5341 @@
+{
+  "witnesses": [
+    {
+      "label": "PI3K",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "367f639cc0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "367e639c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "367e638c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "367e638440308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "367e638040308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "367e638044348a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "367e63804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "367663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "366663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "346663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "346663804c748a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "346663805c748a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "346663005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "346661005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "346261005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "346a61005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "b46a61005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "b46a60005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "b46a62005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "b46a42005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "b46242005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "b46242005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "b46242001c648a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "b46242021c648a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "b46242221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "b46243221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "b46241221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "b46201221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "b42201221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "942201221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "d42201221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "d42201221c748a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "d42201221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "d42201021c548a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "d42200021c548a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "d42240021c548a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "d02240021c548a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "d02240021c448a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "d02240021c648a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "d02240221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "d02200221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "d42200221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "d42200221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "d02200221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "d02200221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "d02200221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "PAK",
+          "state": "d02300221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "d02300261c4c8a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 1,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "LATS",
+        "PI3K",
+        "YAP_TAZ"
+      ],
+      "valid": true
+    },
+    {
+      "label": "ITG_AB",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "367f639cc0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "367e639c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "367e638c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "367e638440308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "367e638040308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "367e638044348a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "367e63804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "367663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "366663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "346663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "346663804c748a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "346663805c748a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "346663005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "346463005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "346063005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "346863005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "b46863005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "b46863005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "b46862005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "b46872005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "b46852005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "b46812005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "b46012005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "a46012005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "a46012001c648a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "a46012021c648a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "a46012221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "a42012221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "842012221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "c42012221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "c42012221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "c02012221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c02012221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c02012221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "FAK_SRC_b1",
+          "state": "c02012229c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "c02012269c4c8a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "ITG_AB"
+      ],
+      "valid": true
+    },
+    {
+      "label": "ZEB",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "367f639cc0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "367e639c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "367e638c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "367e638440308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "367e638040308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "367e638044348a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "367e63804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "367663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "366663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "346663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "346663804c748a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "346663805c748a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "346663005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "346661005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "346461005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "346061005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "346861005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "b46861005c748a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "b46861005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "b46860005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "b46862005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "b46872005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "b46852005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "b46812005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "b46012005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "a46012005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "a46012001c648a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "a46012021c648a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "a46012221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "a46010221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "a42010221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "a42010221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "a02010221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "a02010221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "a02010221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad",
+          "state": "a0201022184c8a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "a020102218448a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "ZEB",
+        "miR200"
+      ],
+      "valid": true
+    },
+    {
+      "label": "SNAIL",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "367f639cc0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "367e639c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "367e638c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "367e638440308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "367e638040308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "RPTP",
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "JNK",
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "367e63804c308a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "367e63804c708a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "367e63805c708a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "366e63805c708a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "366c63805c708a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "366c63805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "366863805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "366843805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "366843801c608a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "366843a01c608a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "366843a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "326843a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "322843a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "122843a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "522843a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "532843a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "532843a01c448a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "532843a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "532842a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "532852a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "532812a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "512812a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "412812a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "c12812a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "c12812221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "c12012221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "c12010221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c12010221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c12010221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "812010221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad",
+          "state": "81201022184c8a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "8120102218448a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 1,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "SNAIL"
+      ],
+      "valid": true
+    },
+    {
+      "label": "p120_AJ",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "367f639cc0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "367e639c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "367e638c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "367e638440308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "367e638040308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "3676638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "3676618044308a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "3676618044348a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "367661804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "367660804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "366660804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "346660804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "346660804c248a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "346660804c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "346660805c648a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "346660005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "346620005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "346420005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "346020005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "346030005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "346010005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "246010005c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "246010001c648a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "246010021c648a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "246010221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "242010221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "042010221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "442010221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "442010221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "402010221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "402010221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "402010221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "402810221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "402812221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "FAK_SRC_b1",
+          "state": "402812229c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "402812269c4c8a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 0
+      },
+      "difference": [
+        "p120_AJ"
+      ],
+      "valid": true
+    },
+    {
+      "label": "STAT3_NFkB_HIF1a",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "367f639cc0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "367e639c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "367e638c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "367e638440308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "367e638040308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "367e638044348a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "367e63804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "367663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "366663804c348a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "366663804c748a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "366663805c748a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "366661805c748a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "366461805c748a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "366061805c748a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "366861805c748a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "b66861805c748a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "b66861805c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "b66860805c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "b66862805c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "b66872805c648a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "b66852805c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "b66052805c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "a66052805c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "a66052801c648a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "a66052821c648a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "a66052a21c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "a66050a21c648a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "a62050a21c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "862050a21c648a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "c62050a21c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "c62050a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "c22050a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c22050a21c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c22050a21c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "c32050a21c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "832050a21c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad",
+          "state": "832050a2184c8a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "832050a218448a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "HIF1a",
+        "NFkB",
+        "STAT3"
+      ],
+      "valid": true
+    },
+    {
+      "label": "SLUG",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "367f639cc0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "367e639c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "367e638c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "367e638440308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "367e638040308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "3676638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "3676618044308a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "3676608044308a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "3676608044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RPTP",
+          "state": "3676608044208a"
+        },
+        {
+          "kind": "update",
+          "node": "JNK",
+          "state": "3676608044208a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "367660804c208a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "367660804c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "367660805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "366660805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "366260805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "366240805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "366240801c608a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "366240a01c608a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "366240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "326240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "322240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "122240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "122a40a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "122a42a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "122a43a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "122a43a01c508a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "122a43801c508a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "126a43801c508a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "526a43801c508a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "526a43801c548a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "526a43801c748a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "526a43821c748a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "526843821c748a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "506843821c748a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "546843821c748a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "d46843821c748a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "d46843821c648a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "d46843a21c648a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "d46843221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "d46842221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "d46852221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "d46812221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "d46012221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "c46012221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "c46012221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "c46010221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "c06010221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c06010221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c06010221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad",
+          "state": "c0601022184c8a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c060102218448a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "SLUG"
+      ],
+      "valid": true
+    },
+    {
+      "label": "AKT",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "367f639cc0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "367e639c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "367e638c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "367e638440308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "367e638040308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "3676638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "3676618044308a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "3676608044308a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "3676608044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RPTP",
+          "state": "3676608044208a"
+        },
+        {
+          "kind": "update",
+          "node": "JNK",
+          "state": "3676608044208a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "367660804c208a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "367660804c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "367660805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "366660805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "366260805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "366240805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "366240801c608a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "366240a01c608a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "366240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "326240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "322240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "122240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "122200a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "122200201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "522200201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "522a00201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "522a02201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "522a03201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "522a03201c508a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "522a03201c548a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "522a03221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "522803221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "502803221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "d02803221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "d02802221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "d02812221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "d02012221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "c02012221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "c02010221c548a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c02010221c5c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c02010221c5c8a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "c02010021c5c8a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "c02050021c5c8a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "c12050021c5c8a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "812050021c5c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad",
+          "state": "81205002185c8a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "8120500218548a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 1,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "AKT"
+      ],
+      "valid": true
+    },
+    {
+      "label": "RAP1",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 0,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "367f639cc0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "367e639c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "367e638c40308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "367e638440308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "367e638040308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "367e638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "3676638044308a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "3676618044308a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "3676608044308a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "3676608044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RPTP",
+          "state": "3676608044208a"
+        },
+        {
+          "kind": "update",
+          "node": "JNK",
+          "state": "3676608044208a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "367660804c208a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "367660804c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "367660805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "366660805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "366260805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "366240805c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "366240801c608a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "366240a01c608a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "366240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "326240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "322240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "122240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "522240a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "522a40a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "d22a40a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "d22a40a01c448a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "d22a40a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "d22a00a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "d22800a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "d02800a21c448a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "d02800221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "d02810221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "c02810221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c02810221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c02810221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "c02812221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "FAK_SRC_b1",
+          "state": "c02812229c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "c02812269c4c8a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 1,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "RAP1"
+      ],
+      "valid": true
+    },
+    {
+      "label": "HGFR",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 1,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 1,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 1,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 1,
+        "JNK": 1,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 0,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 1,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "375f6fdde0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "375e6fdc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "375e6fcc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "375e6fc460308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "375e6fc060308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "375e6fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "37566fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "37566dc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "37566cc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "37566cc064208a"
+        },
+        {
+          "kind": "update",
+          "node": "EGFR",
+          "state": "37566cc044208a"
+        },
+        {
+          "kind": "update",
+          "node": "JAK",
+          "state": "375668c044208a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "3756688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "3746688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "3744688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "3740688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "3740488044208a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "3740488004208a"
+        },
+        {
+          "kind": "update",
+          "node": "JNK",
+          "state": "3740408004208a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "374040800c208a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "374040800c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "374040801c608a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "374040a01c608a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "374040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "334040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "314040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "314000a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "314000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "304000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "300000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "100000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "500000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "500800201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "500802201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "500802601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "500802601c448a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "500802601c648a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "500802621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "500812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RPTP",
+          "state": "502812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "542812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "442812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "c42812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "c42012621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "c42010621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c42010621c6c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c42010621c6c8a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "c43010621c6c8a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "c43210621c6c8a"
+        },
+        {
+          "kind": "update",
+          "node": "PAK",
+          "state": "c43310621c6c8a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "c43310661c6c8a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 1,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 1,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "BCat",
+        "HGFR",
+        "TCF_LEF"
+      ],
+      "valid": true
+    },
+    {
+      "label": "RAS",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 1,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 1,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 1,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 1,
+        "JNK": 1,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 0,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 1,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "375f6fdde0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "375e6fdc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "375e6fcc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "375e6fc460308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "375e6fc060308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "375e6fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "37566fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "37566dc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "37566cc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "37566cc064208a"
+        },
+        {
+          "kind": "update",
+          "node": "EGFR",
+          "state": "37566cc044208a"
+        },
+        {
+          "kind": "update",
+          "node": "JAK",
+          "state": "375668c044208a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "3756688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "3746688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "3744688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "3740688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "3740488044208a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "3740488004208a"
+        },
+        {
+          "kind": "update",
+          "node": "JNK",
+          "state": "3740408004208a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "374040800c208a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "374040800c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "374040801c608a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "374040a01c608a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "374040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "334040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "314040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "314000a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "314000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "304000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "300000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "100000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "500000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "500800201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "500802201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "500802601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "501802601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "501802601c448a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "501802601c648a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "501802621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "501812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RPTP",
+          "state": "503812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "543812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "443812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "c43812621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "c43812221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "c43012221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "c43012221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "c43010221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "c03010221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c03010221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c03010221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "c03210221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "PAK",
+          "state": "c03310221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "c03310261c4c8a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 1,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "RAS"
+      ],
+      "valid": true
+    },
+    {
+      "label": "RAF1",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 1,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 1,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 1,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 1,
+        "JNK": 1,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 0,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 1,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "375f6fdde0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "375e6fdc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "375e6fcc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "375e6fc460308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "375e6fc060308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "375e6fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "37566fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "37566dc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "37566cc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "37566cc064208a"
+        },
+        {
+          "kind": "update",
+          "node": "EGFR",
+          "state": "37566cc044208a"
+        },
+        {
+          "kind": "update",
+          "node": "JAK",
+          "state": "375668c044208a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "3756688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "3746688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "3744688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "3740688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "3740488044208a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "3740488004208a"
+        },
+        {
+          "kind": "update",
+          "node": "JNK",
+          "state": "3740408004208a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "374040800c208a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "374040800c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "374040801c608a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "374040a01c608a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "374040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "334040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "314040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "314000a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "314000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "304000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "300000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "100000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "500000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "500800201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "500802201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "500802601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "501802601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "501c02601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "501c02601c448a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "501c02601c648a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "501c02621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "501c12621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RPTP",
+          "state": "503c12621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "543c12621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "443c12621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "c43c12621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "c43c12221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "c43412221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "c42412221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "c42412221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "c42410221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "c02410221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c02410221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c02410221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "c02430221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "c02430225c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "c02430025c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "c12430025c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "812430025c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad",
+          "state": "81243002584c8a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "8124300258448a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 1,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "RAF1"
+      ],
+      "valid": true
+    },
+    {
+      "label": "MEK",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 1,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 1,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 1,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 1,
+        "JNK": 1,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 0,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 1,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "375f6fdde0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "375e6fdc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "375e6fcc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "375e6fc460308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "375e6fc060308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "375e6fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "37566fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "37566dc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "37566cc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "37566cc064208a"
+        },
+        {
+          "kind": "update",
+          "node": "EGFR",
+          "state": "37566cc044208a"
+        },
+        {
+          "kind": "update",
+          "node": "JAK",
+          "state": "375668c044208a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "3756688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "3746688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "3744688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "3740688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "3740488044208a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "3740488004208a"
+        },
+        {
+          "kind": "update",
+          "node": "JNK",
+          "state": "3740408004208a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "374040800c208a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "374040800c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "374040801c608a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "374040a01c608a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "374040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "334040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "314040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "314000a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "314000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "304000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "300000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "100000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "500000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "500800201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "500802201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "500802601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "501802601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "501c02601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "501c22601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "501c22601c448a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "501c22601c648a"
+        },
+        {
+          "kind": "update",
+          "node": "FAT4",
+          "state": "501c22621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "501c32621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RPTP",
+          "state": "503c32621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "543c32621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "443c32621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "c43c32621c648a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "c43c32221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "c43432221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "c42432221c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "c42432221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "c42430221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "c42030221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "c02030221c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c02030221c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c02030221c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "c02030225c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "c02030025c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "c12030025c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "812030025c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad",
+          "state": "81203002584c8a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "8120300258448a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 0,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 1,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 1,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "MEK"
+      ],
+      "valid": true
+    },
+    {
+      "label": "ERK",
+      "initial_fixed_point": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 0,
+        "AJ_b2": 0,
+        "AKT": 1,
+        "BCat": 1,
+        "BCat_AJ": 0,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 0,
+        "ECad_AJ_b1": 0,
+        "ECad_AJ_b2": 0,
+        "EGFR": 1,
+        "ERK": 1,
+        "FAK_SRC_b1": 1,
+        "FAK_SRC_b2": 1,
+        "FAT4": 0,
+        "FA_b1": 1,
+        "FA_b2": 1,
+        "FA_b3": 1,
+        "GSK3B": 0,
+        "HGFR": 1,
+        "HIF1a": 1,
+        "ILK": 1,
+        "ITG_AB": 1,
+        "JAK": 1,
+        "JNK": 1,
+        "LATS": 0,
+        "MEK": 1,
+        "NFkB": 1,
+        "NOTCH": 0,
+        "PAK": 1,
+        "PI3K": 1,
+        "RAF1": 1,
+        "RAP1": 1,
+        "RAS": 1,
+        "RPTP": 0,
+        "SLUG": 1,
+        "SMAD": 0,
+        "SNAIL": 1,
+        "STAT3": 1,
+        "TCF_LEF": 1,
+        "TGFBR": 0,
+        "YAP_TAZ": 1,
+        "ZEB": 1,
+        "miR200": 0,
+        "p120_AJ": 0
+      },
+      "trace": [
+        {
+          "kind": "initial",
+          "state": "375f6fdde0308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 0,
+          "state": "375e6fdc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b3",
+          "state": "375e6fcc60308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b2",
+          "state": "375e6fc460308a"
+        },
+        {
+          "kind": "update",
+          "node": "FA_b1",
+          "state": "375e6fc060308a"
+        },
+        {
+          "kind": "clamp",
+          "phase": 1,
+          "state": "375e6fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "37566fc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "37566dc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "ILK",
+          "state": "37566cc064308a"
+        },
+        {
+          "kind": "update",
+          "node": "AKT",
+          "state": "37566cc064208a"
+        },
+        {
+          "kind": "update",
+          "node": "EGFR",
+          "state": "37566cc044208a"
+        },
+        {
+          "kind": "update",
+          "node": "JAK",
+          "state": "375668c044208a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "3756688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "3746688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "PI3K",
+          "state": "3744688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "3740688044208a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "3740488044208a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "3740488004208a"
+        },
+        {
+          "kind": "update",
+          "node": "JNK",
+          "state": "3740408004208a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b1",
+          "state": "374040800c208a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat_AJ",
+          "state": "374040800c608a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad_AJ_b2",
+          "state": "374040801c608a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "374040a01c608a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "374040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "334040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "STAT3",
+          "state": "314040a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "NFkB",
+          "state": "314000a01c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HIF1a",
+          "state": "314000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "304000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "SLUG",
+          "state": "300000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ZEB",
+          "state": "100000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "500000201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "500800201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "500802201c408a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "500802601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "501802601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "501c02601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "501c22601c408a"
+        },
+        {
+          "kind": "update",
+          "node": "ERK",
+          "state": "501c22605c408a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b1",
+          "state": "501c22605c448a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "501c22605c648a"
+        },
+        {
+          "kind": "update",
+          "node": "LATS",
+          "state": "501c32605c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RPTP",
+          "state": "503c32605c648a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "543c32605c648a"
+        },
+        {
+          "kind": "update",
+          "node": "YAP_TAZ",
+          "state": "443c32605c648a"
+        },
+        {
+          "kind": "update",
+          "node": "p120_AJ",
+          "state": "c43c32605c648a"
+        },
+        {
+          "kind": "update",
+          "node": "HGFR",
+          "state": "c43c32205c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAP1",
+          "state": "c43432205c648a"
+        },
+        {
+          "kind": "update",
+          "node": "RAS",
+          "state": "c42432205c648a"
+        },
+        {
+          "kind": "update",
+          "node": "BCat",
+          "state": "c42432205c448a"
+        },
+        {
+          "kind": "update",
+          "node": "ITG_AB",
+          "state": "c42430205c448a"
+        },
+        {
+          "kind": "update",
+          "node": "RAF1",
+          "state": "c42030205c448a"
+        },
+        {
+          "kind": "update",
+          "node": "TCF_LEF",
+          "state": "c02030205c448a"
+        },
+        {
+          "kind": "update",
+          "node": "MEK",
+          "state": "c02010205c448a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "c02010205c4c8a"
+        },
+        {
+          "kind": "release",
+          "state": "c02010205c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "GSK3B",
+          "state": "c02010005c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "SNAIL",
+          "state": "c12010005c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "miR200",
+          "state": "812010005c4c8a"
+        },
+        {
+          "kind": "update",
+          "node": "ECad",
+          "state": "81201000584c8a"
+        },
+        {
+          "kind": "update",
+          "node": "AJ_b2",
+          "state": "8120100058448a"
+        }
+      ],
+      "release_state": {
+        "DELTA": 0,
+        "ECM": 1,
+        "EGF": 0,
+        "FAT4_L": 1,
+        "HGF": 0,
+        "IL6": 0,
+        "ROS": 0,
+        "RPTP_L": 1,
+        "TGFB": 0,
+        "WNT": 0,
+        "AJ_b1": 1,
+        "AJ_b2": 1,
+        "AKT": 0,
+        "BCat": 0,
+        "BCat_AJ": 1,
+        "CK1": 0,
+        "CSL": 0,
+        "DVL": 0,
+        "ECad": 1,
+        "ECad_AJ_b1": 1,
+        "ECad_AJ_b2": 1,
+        "EGFR": 0,
+        "ERK": 1,
+        "FAK_SRC_b1": 0,
+        "FAK_SRC_b2": 0,
+        "FAT4": 0,
+        "FA_b1": 0,
+        "FA_b2": 0,
+        "FA_b3": 0,
+        "GSK3B": 1,
+        "HGFR": 0,
+        "HIF1a": 0,
+        "ILK": 0,
+        "ITG_AB": 0,
+        "JAK": 0,
+        "JNK": 0,
+        "LATS": 1,
+        "MEK": 0,
+        "NFkB": 0,
+        "NOTCH": 0,
+        "PAK": 0,
+        "PI3K": 0,
+        "RAF1": 0,
+        "RAP1": 0,
+        "RAS": 0,
+        "RPTP": 1,
+        "SLUG": 0,
+        "SMAD": 0,
+        "SNAIL": 0,
+        "STAT3": 0,
+        "TCF_LEF": 0,
+        "TGFBR": 0,
+        "YAP_TAZ": 0,
+        "ZEB": 0,
+        "miR200": 1,
+        "p120_AJ": 1
+      },
+      "difference": [
+        "ERK",
+        "FAT4"
+      ],
+      "valid": true
+    }
+  ],
+  "S": [
+    "PI3K",
+    "ITG_AB",
+    "SNAIL",
+    "p120_AJ",
+    "SLUG",
+    "AKT",
+    "RAP1",
+    "RAS",
+    "HGFR",
+    "ERK",
+    "MEK",
+    "RAF1",
+    "miR200",
+    "NFkB"
+  ],
+  "initial_models": [
+    {
+      "DELTA": 0,
+      "ECM": 1,
+      "EGF": 0,
+      "FAT4_L": 1,
+      "HGF": 0,
+      "IL6": 0,
+      "ROS": 0,
+      "RPTP_L": 1,
+      "TGFB": 0,
+      "WNT": 0,
+      "AJ_b1": 0,
+      "AJ_b2": 0,
+      "AKT": 1,
+      "BCat": 1,
+      "BCat_AJ": 0,
+      "CK1": 0,
+      "CSL": 0,
+      "DVL": 0,
+      "ECad": 0,
+      "ECad_AJ_b1": 0,
+      "ECad_AJ_b2": 0,
+      "EGFR": 0,
+      "ERK": 1,
+      "FAK_SRC_b1": 1,
+      "FAK_SRC_b2": 0,
+      "FAT4": 0,
+      "FA_b1": 1,
+      "FA_b2": 1,
+      "FA_b3": 1,
+      "GSK3B": 0,
+      "HGFR": 0,
+      "HIF1a": 1,
+      "ILK": 1,
+      "ITG_AB": 1,
+      "JAK": 0,
+      "JNK": 0,
+      "LATS": 0,
+      "MEK": 1,
+      "NFkB": 1,
+      "NOTCH": 0,
+      "PAK": 1,
+      "PI3K": 1,
+      "RAF1": 1,
+      "RAP1": 1,
+      "RAS": 1,
+      "RPTP": 1,
+      "SLUG": 1,
+      "SMAD": 0,
+      "SNAIL": 0,
+      "STAT3": 1,
+      "TCF_LEF": 1,
+      "TGFBR": 0,
+      "YAP_TAZ": 1,
+      "ZEB": 1,
+      "miR200": 0,
+      "p120_AJ": 0
+    },
+    {
+      "DELTA": 0,
+      "ECM": 1,
+      "EGF": 0,
+      "FAT4_L": 1,
+      "HGF": 0,
+      "IL6": 0,
+      "ROS": 0,
+      "RPTP_L": 1,
+      "TGFB": 0,
+      "WNT": 0,
+      "AJ_b1": 0,
+      "AJ_b2": 0,
+      "AKT": 1,
+      "BCat": 1,
+      "BCat_AJ": 0,
+      "CK1": 0,
+      "CSL": 0,
+      "DVL": 0,
+      "ECad": 0,
+      "ECad_AJ_b1": 0,
+      "ECad_AJ_b2": 0,
+      "EGFR": 1,
+      "ERK": 1,
+      "FAK_SRC_b1": 1,
+      "FAK_SRC_b2": 1,
+      "FAT4": 0,
+      "FA_b1": 1,
+      "FA_b2": 1,
+      "FA_b3": 1,
+      "GSK3B": 0,
+      "HGFR": 1,
+      "HIF1a": 1,
+      "ILK": 1,
+      "ITG_AB": 1,
+      "JAK": 1,
+      "JNK": 1,
+      "LATS": 0,
+      "MEK": 1,
+      "NFkB": 1,
+      "NOTCH": 0,
+      "PAK": 1,
+      "PI3K": 1,
+      "RAF1": 1,
+      "RAP1": 1,
+      "RAS": 1,
+      "RPTP": 0,
+      "SLUG": 1,
+      "SMAD": 0,
+      "SNAIL": 1,
+      "STAT3": 1,
+      "TCF_LEF": 1,
+      "TGFBR": 0,
+      "YAP_TAZ": 1,
+      "ZEB": 1,
+      "miR200": 0,
+      "p120_AJ": 0
+    }
+  ],
+  "nodes": [
+    "DELTA",
+    "ECM",
+    "EGF",
+    "FAT4_L",
+    "HGF",
+    "IL6",
+    "ROS",
+    "RPTP_L",
+    "TGFB",
+    "WNT",
+    "AJ_b1",
+    "AJ_b2",
+    "AKT",
+    "BCat",
+    "BCat_AJ",
+    "CK1",
+    "CSL",
+    "DVL",
+    "ECad",
+    "ECad_AJ_b1",
+    "ECad_AJ_b2",
+    "EGFR",
+    "ERK",
+    "FAK_SRC_b1",
+    "FAK_SRC_b2",
+    "FAT4",
+    "FA_b1",
+    "FA_b2",
+    "FA_b3",
+    "GSK3B",
+    "HGFR",
+    "HIF1a",
+    "ILK",
+    "ITG_AB",
+    "JAK",
+    "JNK",
+    "LATS",
+    "MEK",
+    "NFkB",
+    "NOTCH",
+    "PAK",
+    "PI3K",
+    "RAF1",
+    "RAP1",
+    "RAS",
+    "RPTP",
+    "SLUG",
+    "SMAD",
+    "SNAIL",
+    "STAT3",
+    "TCF_LEF",
+    "TGFBR",
+    "YAP_TAZ",
+    "ZEB",
+    "miR200",
+    "p120_AJ"
+  ],
+  "xE": {
+    "DELTA": 0,
+    "ECM": 1,
+    "EGF": 0,
+    "FAT4_L": 1,
+    "HGF": 0,
+    "IL6": 0,
+    "ROS": 0,
+    "RPTP_L": 1,
+    "TGFB": 0,
+    "WNT": 0,
+    "AJ_b1": 1,
+    "AJ_b2": 1,
+    "AKT": 0,
+    "BCat": 0,
+    "BCat_AJ": 1,
+    "CK1": 0,
+    "CSL": 0,
+    "DVL": 0,
+    "ECad": 1,
+    "ECad_AJ_b1": 1,
+    "ECad_AJ_b2": 1,
+    "EGFR": 0,
+    "ERK": 0,
+    "FAK_SRC_b1": 0,
+    "FAK_SRC_b2": 0,
+    "FAT4": 1,
+    "FA_b1": 0,
+    "FA_b2": 0,
+    "FA_b3": 0,
+    "GSK3B": 1,
+    "HGFR": 0,
+    "HIF1a": 0,
+    "ILK": 0,
+    "ITG_AB": 0,
+    "JAK": 0,
+    "JNK": 0,
+    "LATS": 1,
+    "MEK": 0,
+    "NFkB": 0,
+    "NOTCH": 0,
+    "PAK": 0,
+    "PI3K": 0,
+    "RAF1": 0,
+    "RAP1": 0,
+    "RAS": 0,
+    "RPTP": 1,
+    "SLUG": 0,
+    "SMAD": 0,
+    "SNAIL": 0,
+    "STAT3": 0,
+    "TCF_LEF": 0,
+    "TGFBR": 0,
+    "YAP_TAZ": 0,
+    "ZEB": 0,
+    "miR200": 1,
+    "p120_AJ": 1
+  },
+  "environment": {
+    "DELTA": 0,
+    "ECM": 1,
+    "EGF": 0,
+    "FAT4_L": 1,
+    "HGF": 0,
+    "IL6": 0,
+    "ROS": 0,
+    "RPTP_L": 1,
+    "TGFB": 0,
+    "WNT": 0
+  }
+}

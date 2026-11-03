@@ -1,0 +1,30 @@
+Copyright 2026 Tatsuhiko Takimoto.
+
+Project-owned source code (verify.py, scripts/*.py and CI configuration) is
+licensed under Apache License 2.0; see Apache-2.0.txt.
+
+Original documentation, claim descriptions and project-created verification
+contributions are licensed under Creative Commons Attribution 4.0
+International; see CC-BY-4.0.txt. This grant extends only to rights held in
+these original contributions, not to third-party material embedded in them.
+
+THIRD-PARTY MODEL: sources/Selvaggio_etal_2020.sbml and the BioModels record
+and file metadata are obtained from BioModels MODEL2004040001. BioModels
+provides its encoded models and annotations under CC0 1.0 Public Domain
+Dedication: https://creativecommons.org/publicdomain/zero/1.0/
+Terms: https://www.biomodels.org/termsofuse
+Retrieved bytes, URL, date and hashes are recorded in sources/retrievals.json.
+inputs/biomodels-derived.bnet is generated from that SBML by the bundled
+converter. Model-derived mathematical content in the verification artifacts
+is checked against this CC0 source; original project contributions retain
+the licenses stated above. These grants do not relicense other work.
+
+The previously used frozen PyBoolNet bnet is not bundled; only its comparison
+record remains. Its unresolved file-level terms are not assigned to the new
+BioModels-derived file. The model redistribution hold is resolved by the
+source replacement and complete local formula comparison. Public release
+still requires the owner's decision.
+
+The GINsim and PyBoolNet programs, BioModels service and cited papers are not
+bundled. Their own terms apply. This package does not relicense them.
+See THIRD-PARTY-NOTICES.md, MODEL-CONVERSION.md and SOURCES.md for attribution.

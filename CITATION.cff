@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this package and the original model sources listed in SOURCES.md."
+title: "Fourteen observation bits for a fixed Boolean release protocol"
+type: software
+version: 1.0.0
+date-released: 2026-11-04
+authors:
+  - family-names: Takimoto
+    given-names: Tatsuhiko
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+abstract: "Certificate package for a frozen 56-rule Boolean benchmark. With a specified four-bit atomic clamp and fair single-bit updates, fourteen observation bits in addition to the five readouts are necessary and sufficient for the specified current-value equality guard on a fixed set S. Other guards, observation histories and interventions are not optimized. License entries cover project-owned contributions only; third-party model terms are described in LICENSE and THIRD-PARTY-NOTICES.md."
+keywords:
+  - Boolean network
+  - partial observation
+  - model checking
+  - release guard
+  - certificate verification

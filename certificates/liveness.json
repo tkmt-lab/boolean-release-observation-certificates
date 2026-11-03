@@ -1,0 +1,807 @@
+{
+  "schema": 1,
+  "stable_initial_pins": {
+    "DELTA": 0,
+    "ECM": 1,
+    "EGF": 0,
+    "FAT4_L": 1,
+    "HGF": 0,
+    "IL6": 0,
+    "ROS": 0,
+    "RPTP_L": 1,
+    "TGFB": 0,
+    "WNT": 0,
+    "ECad": 1,
+    "PAK": 0,
+    "FAK_SRC_b1": 0
+  },
+  "layers_before_core": [
+    [
+      {
+        "node": "AJ_b1",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 1
+        }
+      },
+      {
+        "node": "CK1",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "WNT"
+          ]
+        }
+      },
+      {
+        "node": "ECad_AJ_b1",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 2
+        }
+      },
+      {
+        "node": "FAK_SRC_b2",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "FAK_SRC_b1",
+            "ROS"
+          ]
+        }
+      },
+      {
+        "node": "FA_b3",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "PAK"
+          ]
+        }
+      },
+      {
+        "node": "NOTCH",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "DELTA"
+          ]
+        }
+      },
+      {
+        "node": "RPTP",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 1
+        }
+      },
+      {
+        "node": "TGFBR",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "TGFB"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "CSL",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "NOTCH"
+          ]
+        }
+      },
+      {
+        "node": "DVL",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "CK1"
+          ]
+        }
+      },
+      {
+        "node": "EGFR",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "RPTP",
+            "TGFBR",
+            "RPTP"
+          ]
+        }
+      },
+      {
+        "node": "FA_b2",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "FA_b3",
+            "PAK"
+          ]
+        }
+      },
+      {
+        "node": "HGFR",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "RPTP",
+            "RPTP"
+          ]
+        }
+      },
+      {
+        "node": "JNK",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "TGFBR",
+            "RPTP",
+            "RPTP"
+          ]
+        }
+      },
+      {
+        "node": "SMAD",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "TGFBR"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "BCat_AJ",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "node": "FA_b1",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "FA_b2",
+            "PAK",
+            "FAK_SRC_b1"
+          ]
+        }
+      },
+      {
+        "node": "JAK",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "IL6",
+            "EGFR"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "ECad_AJ_b2",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "node": "RAS",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "TGFBR",
+            "JAK",
+            "HGFR",
+            "FAK_SRC_b1",
+            "EGFR"
+          ]
+        }
+      },
+      {
+        "node": "STAT3",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "JAK",
+            "FAK_SRC_b1"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "AJ_b2",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "node": "HIF1a",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "STAT3"
+          ]
+        }
+      },
+      {
+        "node": "PI3K",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "RAS",
+            "FAK_SRC_b1"
+          ]
+        }
+      },
+      {
+        "node": "RAF1",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "RAS"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "AKT",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "PI3K"
+          ]
+        }
+      },
+      {
+        "node": "ILK",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "PI3K"
+          ]
+        }
+      },
+      {
+        "node": "LATS",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "node": "MEK",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "RAF1"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "ERK",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "MEK"
+          ]
+        }
+      },
+      {
+        "node": "NFkB",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "TGFBR",
+            "ROS",
+            "CSL",
+            "AKT"
+          ]
+        }
+      },
+      {
+        "node": "YAP_TAZ",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "LATS"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "FAT4",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "node": "GSK3B",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "node": "SNAIL",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "STAT3",
+            "PAK",
+            "STAT3",
+            "PAK",
+            "STAT3",
+            "PAK",
+            "STAT3",
+            "PAK",
+            "STAT3",
+            "PAK",
+            "STAT3",
+            "PAK",
+            "STAT3",
+            "PAK",
+            "NFkB",
+            "STAT3",
+            "PAK",
+            "NFkB",
+            "NFkB",
+            "JNK",
+            "STAT3",
+            "SMAD",
+            "NFkB",
+            "JNK",
+            "ERK",
+            "CSL",
+            "SMAD"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "BCat",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "HGFR",
+            "GSK3B",
+            "BCat_AJ"
+          ]
+        }
+      },
+      {
+        "node": "SLUG",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "GSK3B",
+            "HIF1a",
+            "GSK3B",
+            "GSK3B"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "TCF_LEF",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "BCat"
+          ]
+        }
+      },
+      {
+        "node": "ZEB",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "SNAIL",
+            "SLUG"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "node": "miR200",
+        "value": 1,
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      }
+    ]
+  ],
+  "core": {
+    "nodes": [
+      "p120_AJ",
+      "RAP1"
+    ],
+    "table": [
+      {
+        "state": [
+          0,
+          0
+        ],
+        "node": "p120_AJ",
+        "value": 0,
+        "next": [
+          0,
+          0
+        ],
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "p120_AJ",
+            "RAP1"
+          ]
+        }
+      },
+      {
+        "state": [
+          0,
+          0
+        ],
+        "node": "RAP1",
+        "value": 1,
+        "next": [
+          0,
+          1
+        ],
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "state": [
+          0,
+          1
+        ],
+        "node": "p120_AJ",
+        "value": 1,
+        "next": [
+          1,
+          1
+        ],
+        "proof": {
+          "kind": "true_term",
+          "term": 1
+        }
+      },
+      {
+        "state": [
+          0,
+          1
+        ],
+        "node": "RAP1",
+        "value": 1,
+        "next": [
+          0,
+          1
+        ],
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "state": [
+          1,
+          0
+        ],
+        "node": "p120_AJ",
+        "value": 1,
+        "next": [
+          1,
+          0
+        ],
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "state": [
+          1,
+          0
+        ],
+        "node": "RAP1",
+        "value": 0,
+        "next": [
+          1,
+          0
+        ],
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "p120_AJ",
+            "FAK_SRC_b1"
+          ]
+        }
+      },
+      {
+        "state": [
+          1,
+          1
+        ],
+        "node": "p120_AJ",
+        "value": 1,
+        "next": [
+          1,
+          1
+        ],
+        "proof": {
+          "kind": "true_term",
+          "term": 0
+        }
+      },
+      {
+        "state": [
+          1,
+          1
+        ],
+        "node": "RAP1",
+        "value": 0,
+        "next": [
+          1,
+          0
+        ],
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "p120_AJ",
+            "FAK_SRC_b1"
+          ]
+        }
+      }
+    ],
+    "rank": [
+      {
+        "state": [
+          0,
+          0
+        ],
+        "rank": 3
+      },
+      {
+        "state": [
+          0,
+          1
+        ],
+        "rank": 2
+      },
+      {
+        "state": [
+          1,
+          1
+        ],
+        "rank": 1
+      },
+      {
+        "state": [
+          1,
+          0
+        ],
+        "rank": 0
+      }
+    ],
+    "eventual_stable_values": {
+      "p120_AJ": 1,
+      "RAP1": 0
+    },
+    "fairness_argument": "Every nonterminal core state has an enabled strictly decreasing transition; other core transitions stutter or decrease. Once external values stabilize, weak node fairness forces a finite rank decrease, at most three decreases."
+  },
+  "layers_after_core": [
+    [
+      {
+        "node": "ITG_AB",
+        "value": 0,
+        "proof": {
+          "kind": "blocked_terms",
+          "literals": [
+            "RAP1"
+          ]
+        }
+      }
+    ]
+  ],
+  "all_nodes_eventually_stable": [
+    "AJ_b1",
+    "AJ_b2",
+    "AKT",
+    "BCat",
+    "BCat_AJ",
+    "CK1",
+    "CSL",
+    "DELTA",
+    "DVL",
+    "ECM",
+    "ECad",
+    "ECad_AJ_b1",
+    "ECad_AJ_b2",
+    "EGF",
+    "EGFR",
+    "ERK",
+    "FAK_SRC_b1",
+    "FAK_SRC_b2",
+    "FAT4",
+    "FAT4_L",
+    "FA_b1",
+    "FA_b2",
+    "FA_b3",
+    "GSK3B",
+    "HGF",
+    "HGFR",
+    "HIF1a",
+    "IL6",
+    "ILK",
+    "ITG_AB",
+    "JAK",
+    "JNK",
+    "LATS",
+    "MEK",
+    "NFkB",
+    "NOTCH",
+    "PAK",
+    "PI3K",
+    "RAF1",
+    "RAP1",
+    "RAS",
+    "ROS",
+    "RPTP",
+    "RPTP_L",
+    "SLUG",
+    "SMAD",
+    "SNAIL",
+    "STAT3",
+    "TCF_LEF",
+    "TGFB",
+    "TGFBR",
+    "WNT",
+    "YAP_TAZ",
+    "ZEB",
+    "miR200",
+    "p120_AJ"
+  ],
+  "target_is_unforced_fixed_point": true,
+  "phase0_aj_invariant": {
+    "AJ_b1": {
+      "kind": "blocked_terms",
+      "literals": [
+        "AJ_b2",
+        "ECad"
+      ]
+    },
+    "AJ_b2": {
+      "kind": "blocked_terms",
+      "literals": [
+        "ECad"
+      ]
+    }
+  },
+  "phase0_FA_progress": [
+    {
+      "node": "FA_b3",
+      "value": 0,
+      "proof": {
+        "kind": "blocked_terms",
+        "literals": [
+          "PAK"
+        ]
+      }
+    },
+    {
+      "node": "FA_b2",
+      "value": 0,
+      "proof": {
+        "kind": "blocked_terms",
+        "literals": [
+          "FA_b3",
+          "PAK"
+        ]
+      }
+    },
+    {
+      "node": "FA_b1",
+      "value": 0,
+      "proof": {
+        "kind": "blocked_terms",
+        "literals": [
+          "FA_b2",
+          "PAK",
+          "FAK_SRC_b1"
+        ]
+      }
+    }
+  ],
+  "phase1_FA_invariant": {
+    "FA_b1": {
+      "kind": "blocked_terms",
+      "literals": [
+        "FA_b2",
+        "PAK",
+        "FAK_SRC_b1"
+      ]
+    },
+    "FA_b2": {
+      "kind": "blocked_terms",
+      "literals": [
+        "FA_b3",
+        "PAK"
+      ]
+    },
+    "FA_b3": {
+      "kind": "blocked_terms",
+      "literals": [
+        "PAK"
+      ]
+    }
+  },
+  "scope": "Eventual stability under fair asynchronous updates, not a uniform finite step deadline. Immediate guards truncate these controlled trajectories.",
+  "code_sha256": "6f0e171d066829b844f4e8489b2a7710e2d2578cdc5c2040f7024ae0b1d9f29d",
+  "model_sha256": "ad7fc01edb754baeac131c24b9128561df6563c1a0614b71528d222c10ee6388",
+  "wall_seconds": 0.0012825409939978272,
+  "cpu_seconds": 0.03024,
+  "peak_rss_bytes": 21118976,
+  "processes": 1,
+  "cost_usd": 0
+}

@@ -1,0 +1,620 @@
+{
+  "status": "PASS",
+  "method": "direct enumeration of every local Boolean assignment; SHA-256 records retained for offline replay",
+  "reference_sha256": "7772a1a17eed3dc344941d0788e3e4458607efa6ba1c93832eeb0d40ac7d449a",
+  "reference_size": 2968,
+  "reference_commit": "866a84d57935735ea781b0cc96e6df74a3ac0b52",
+  "reference_url": "https://raw.githubusercontent.com/hklarner/pyboolnet/866a84d57935735ea781b0cc96e6df74a3ac0b52/pyboolnet/repository/selvaggio_emt/selvaggio_emt.bnet",
+  "reference_bundled": false,
+  "nodes": [
+    "DELTA",
+    "ECM",
+    "EGF",
+    "FAT4_L",
+    "HGF",
+    "IL6",
+    "ROS",
+    "RPTP_L",
+    "TGFB",
+    "WNT",
+    "AJ_b1",
+    "AJ_b2",
+    "AKT",
+    "BCat",
+    "BCat_AJ",
+    "CK1",
+    "CSL",
+    "DVL",
+    "ECad",
+    "ECad_AJ_b1",
+    "ECad_AJ_b2",
+    "EGFR",
+    "ERK",
+    "FAK_SRC_b1",
+    "FAK_SRC_b2",
+    "FAT4",
+    "FA_b1",
+    "FA_b2",
+    "FA_b3",
+    "GSK3B",
+    "HGFR",
+    "HIF1a",
+    "ILK",
+    "ITG_AB",
+    "JAK",
+    "JNK",
+    "LATS",
+    "MEK",
+    "NFkB",
+    "NOTCH",
+    "PAK",
+    "PI3K",
+    "RAF1",
+    "RAP1",
+    "RAS",
+    "RPTP",
+    "SLUG",
+    "SMAD",
+    "SNAIL",
+    "STAT3",
+    "TCF_LEF",
+    "TGFBR",
+    "YAP_TAZ",
+    "ZEB",
+    "miR200",
+    "p120_AJ"
+  ],
+  "rules": [
+    {
+      "node": "DELTA",
+      "support": [
+        "DELTA"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "ECM",
+      "support": [
+        "ECM"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "EGF",
+      "support": [
+        "EGF"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "FAT4_L",
+      "support": [
+        "FAT4_L"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "HGF",
+      "support": [
+        "HGF"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "IL6",
+      "support": [
+        "IL6"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "ROS",
+      "support": [
+        "ROS"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "RPTP_L",
+      "support": [
+        "RPTP_L"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "TGFB",
+      "support": [
+        "TGFB"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "WNT",
+      "support": [
+        "WNT"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "AJ_b1",
+      "support": [
+        "AJ_b1",
+        "AJ_b2",
+        "ECad"
+      ],
+      "assignments": 8,
+      "truth_sha256": "b92d25d0a279c41f196ab6c88c94a038f7fa6630434caf53e1ccfccd571ecae1"
+    },
+    {
+      "node": "AJ_b2",
+      "support": [
+        "AJ_b1",
+        "ECad",
+        "ECad_AJ_b1",
+        "ECad_AJ_b2"
+      ],
+      "assignments": 16,
+      "truth_sha256": "7c3ccd10bb7ec37b46d37926ae6274267f007a34aeaf15c882a715a7f3300529"
+    },
+    {
+      "node": "AKT",
+      "support": [
+        "ILK",
+        "PI3K"
+      ],
+      "assignments": 4,
+      "truth_sha256": "b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d"
+    },
+    {
+      "node": "BCat",
+      "support": [
+        "BCat_AJ",
+        "GSK3B",
+        "HGFR"
+      ],
+      "assignments": 8,
+      "truth_sha256": "d9a12d8449e2e1da619e4dd7b9c859316fdbbe1e1b123c7b0054420880a699fd"
+    },
+    {
+      "node": "BCat_AJ",
+      "support": [
+        "ECad_AJ_b1",
+        "FAK_SRC_b1",
+        "JNK",
+        "RPTP"
+      ],
+      "assignments": 16,
+      "truth_sha256": "b9786b452f226f74ac9764e453298f9d8c7d2ce8d6ff68a36db9d3ebd68d4c86"
+    },
+    {
+      "node": "CK1",
+      "support": [
+        "WNT"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "CSL",
+      "support": [
+        "DVL",
+        "NOTCH"
+      ],
+      "assignments": 4,
+      "truth_sha256": "bf5e8ffa51a9e748985800c1d3d7f1a2a6ae7435136593ca8d9637e3f87c699c"
+    },
+    {
+      "node": "DVL",
+      "support": [
+        "CK1",
+        "YAP_TAZ"
+      ],
+      "assignments": 4,
+      "truth_sha256": "b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d"
+    },
+    {
+      "node": "ECad",
+      "support": [
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "miR200"
+      ],
+      "assignments": 16,
+      "truth_sha256": "6e311d95a4cd34f71e4ac6cbbed385a1f6a9216696079d80e3748df4a2c3bb7d"
+    },
+    {
+      "node": "ECad_AJ_b1",
+      "support": [
+        "ECad",
+        "ECad_AJ_b1",
+        "ECad_AJ_b2",
+        "FAK_SRC_b1",
+        "RPTP"
+      ],
+      "assignments": 32,
+      "truth_sha256": "8eda33ba93e3219cc05a0260c8710ce540333700c5439609baa8679320dd2e49"
+    },
+    {
+      "node": "ECad_AJ_b2",
+      "support": [
+        "BCat_AJ",
+        "ECad",
+        "ECad_AJ_b1",
+        "FAK_SRC_b1",
+        "RPTP"
+      ],
+      "assignments": 32,
+      "truth_sha256": "be0d1ea4029cb6e6cf478f28573c4835057799bb74a8094b1239d938c0bd29c5"
+    },
+    {
+      "node": "EGFR",
+      "support": [
+        "EGF",
+        "FAK_SRC_b1",
+        "FAK_SRC_b2",
+        "ITG_AB",
+        "RPTP",
+        "TGFBR"
+      ],
+      "assignments": 64,
+      "truth_sha256": "967c9ef6a3fb5bd3daa34dea43cae1dc4b08467d50fba88341cf3b6ac8b63527"
+    },
+    {
+      "node": "ERK",
+      "support": [
+        "MEK"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "FAK_SRC_b1",
+      "support": [
+        "EGFR",
+        "FAK_SRC_b1",
+        "FAK_SRC_b2",
+        "HGFR",
+        "ITG_AB",
+        "ROS"
+      ],
+      "assignments": 64,
+      "truth_sha256": "6802bdd81921272c6d07b30a4b68cddf94317de8034d489a8b5f0b95286c8ad3"
+    },
+    {
+      "node": "FAK_SRC_b2",
+      "support": [
+        "EGFR",
+        "FAK_SRC_b1",
+        "HGFR",
+        "ITG_AB",
+        "ROS"
+      ],
+      "assignments": 32,
+      "truth_sha256": "9ed722318829798c0d44d7468060c500edd359afc13ff699e05f103ed10ed078"
+    },
+    {
+      "node": "FAT4",
+      "support": [
+        "ERK",
+        "FAT4_L"
+      ],
+      "assignments": 4,
+      "truth_sha256": "bf5e8ffa51a9e748985800c1d3d7f1a2a6ae7435136593ca8d9637e3f87c699c"
+    },
+    {
+      "node": "FA_b1",
+      "support": [
+        "FAK_SRC_b1",
+        "FA_b1",
+        "FA_b2",
+        "PAK"
+      ],
+      "assignments": 16,
+      "truth_sha256": "c2c539e2a8029320a905ea429b067137274c603bd17a2d2a3edd27b1a2d07bd9"
+    },
+    {
+      "node": "FA_b2",
+      "support": [
+        "FAK_SRC_b1",
+        "FA_b1",
+        "FA_b2",
+        "FA_b3",
+        "PAK"
+      ],
+      "assignments": 32,
+      "truth_sha256": "928890dc2dd0ae40784c1ebb9b315114a3c0f411655df5d401f67d22b5dd5e18"
+    },
+    {
+      "node": "FA_b3",
+      "support": [
+        "FAK_SRC_b1",
+        "FA_b1",
+        "FA_b2",
+        "ITG_AB",
+        "PAK"
+      ],
+      "assignments": 32,
+      "truth_sha256": "ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5"
+    },
+    {
+      "node": "GSK3B",
+      "support": [
+        "AKT",
+        "DVL",
+        "ERK"
+      ],
+      "assignments": 8,
+      "truth_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+    },
+    {
+      "node": "HGFR",
+      "support": [
+        "HGF",
+        "ITG_AB",
+        "RPTP"
+      ],
+      "assignments": 8,
+      "truth_sha256": "78933a359e2a17c912567960857ad867de97cd642031fdd6e8c26acc2b426a55"
+    },
+    {
+      "node": "HIF1a",
+      "support": [
+        "NFkB",
+        "STAT3"
+      ],
+      "assignments": 4,
+      "truth_sha256": "b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d"
+    },
+    {
+      "node": "ILK",
+      "support": [
+        "ITG_AB",
+        "PI3K"
+      ],
+      "assignments": 4,
+      "truth_sha256": "b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d"
+    },
+    {
+      "node": "ITG_AB",
+      "support": [
+        "ECM",
+        "RAP1"
+      ],
+      "assignments": 4,
+      "truth_sha256": "b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d"
+    },
+    {
+      "node": "JAK",
+      "support": [
+        "EGFR",
+        "IL6"
+      ],
+      "assignments": 4,
+      "truth_sha256": "cbd95ae5ef8810691e3fc7efb7c39ef9ffb661135d858aa0ccc81fc74a0160ae"
+    },
+    {
+      "node": "JNK",
+      "support": [
+        "FAK_SRC_b1",
+        "ROS",
+        "RPTP",
+        "TGFBR"
+      ],
+      "assignments": 16,
+      "truth_sha256": "b6d3bd0615d8271c795615da3ef95ab1e0d5487f8ee19e5f2fbf579dc32b5575"
+    },
+    {
+      "node": "LATS",
+      "support": [
+        "BCat_AJ",
+        "ECad_AJ_b1",
+        "ECad_AJ_b2",
+        "FAT4",
+        "PI3K"
+      ],
+      "assignments": 32,
+      "truth_sha256": "18dd8db501d55b9868f30ca55b44006ccdd0a2190d236b9b8cd7e2cbab076773"
+    },
+    {
+      "node": "MEK",
+      "support": [
+        "RAF1"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "NFkB",
+      "support": [
+        "AKT",
+        "CSL",
+        "ROS",
+        "TGFBR"
+      ],
+      "assignments": 16,
+      "truth_sha256": "6c014c89abbc90a6e18d92cca238f2cc0987918516b2bc0d164da54f99182a3a"
+    },
+    {
+      "node": "NOTCH",
+      "support": [
+        "DELTA"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "PAK",
+      "support": [
+        "FAK_SRC_b1",
+        "PI3K"
+      ],
+      "assignments": 4,
+      "truth_sha256": "cbd95ae5ef8810691e3fc7efb7c39ef9ffb661135d858aa0ccc81fc74a0160ae"
+    },
+    {
+      "node": "PI3K",
+      "support": [
+        "FAK_SRC_b1",
+        "RAS"
+      ],
+      "assignments": 4,
+      "truth_sha256": "cbd95ae5ef8810691e3fc7efb7c39ef9ffb661135d858aa0ccc81fc74a0160ae"
+    },
+    {
+      "node": "RAF1",
+      "support": [
+        "RAS"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "RAP1",
+      "support": [
+        "ECad_AJ_b1",
+        "ECad_AJ_b2",
+        "FAK_SRC_b1",
+        "p120_AJ"
+      ],
+      "assignments": 16,
+      "truth_sha256": "3c925e0c6a9abac1d5fea909e23ced4d4d57ff6dc7fd2b139c5ebef263fcd470"
+    },
+    {
+      "node": "RAS",
+      "support": [
+        "EGFR",
+        "FAK_SRC_b1",
+        "HGFR",
+        "JAK",
+        "TGFBR"
+      ],
+      "assignments": 32,
+      "truth_sha256": "915c75942a26bb3a433a8ce2cb0427c29ec6c1775cfc78328b57f6ba7bfeaa9c"
+    },
+    {
+      "node": "RPTP",
+      "support": [
+        "FAK_SRC_b1",
+        "FAK_SRC_b2",
+        "ROS",
+        "RPTP_L"
+      ],
+      "assignments": 16,
+      "truth_sha256": "d4e38dffa3657e8179db0dcfa984476122b660e5cf57c959059baa344fadfafc"
+    },
+    {
+      "node": "SLUG",
+      "support": [
+        "CSL",
+        "ERK",
+        "GSK3B",
+        "HIF1a",
+        "TCF_LEF",
+        "miR200"
+      ],
+      "assignments": 64,
+      "truth_sha256": "dc9ccb91b9ff52375a2558b3a82a9d3247a049af1fe29bca0fcb94ea61c60aec"
+    },
+    {
+      "node": "SMAD",
+      "support": [
+        "TGFBR",
+        "YAP_TAZ"
+      ],
+      "assignments": 4,
+      "truth_sha256": "b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d"
+    },
+    {
+      "node": "SNAIL",
+      "support": [
+        "CSL",
+        "ERK",
+        "GSK3B",
+        "HIF1a",
+        "JNK",
+        "NFkB",
+        "PAK",
+        "SMAD",
+        "STAT3",
+        "TCF_LEF"
+      ],
+      "assignments": 1024,
+      "truth_sha256": "f1f30a9d05edbdbc14604b8e484c9706f25d9fd8b03ae9af587c25bbfb8ff1cc"
+    },
+    {
+      "node": "STAT3",
+      "support": [
+        "FAK_SRC_b1",
+        "JAK"
+      ],
+      "assignments": 4,
+      "truth_sha256": "cbd95ae5ef8810691e3fc7efb7c39ef9ffb661135d858aa0ccc81fc74a0160ae"
+    },
+    {
+      "node": "TCF_LEF",
+      "support": [
+        "BCat"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "TGFBR",
+      "support": [
+        "TGFB"
+      ],
+      "assignments": 2,
+      "truth_sha256": "b413f47d13ee2fe6c845b2ee141af81de858df4ec549a58b7970bb96645bc8d2"
+    },
+    {
+      "node": "YAP_TAZ",
+      "support": [
+        "LATS"
+      ],
+      "assignments": 2,
+      "truth_sha256": "47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254"
+    },
+    {
+      "node": "ZEB",
+      "support": [
+        "SLUG",
+        "SNAIL",
+        "miR200"
+      ],
+      "assignments": 8,
+      "truth_sha256": "78933a359e2a17c912567960857ad867de97cd642031fdd6e8c26acc2b426a55"
+    },
+    {
+      "node": "miR200",
+      "support": [
+        "SNAIL",
+        "ZEB"
+      ],
+      "assignments": 4,
+      "truth_sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450"
+    },
+    {
+      "node": "p120_AJ",
+      "support": [
+        "CK1",
+        "ECad_AJ_b1",
+        "ECad_AJ_b2",
+        "RAP1",
+        "p120_AJ"
+      ],
+      "assignments": 32,
+      "truth_sha256": "fd2f1c2f39870a332c634468649b858d5ec940a71508f64474b2d256ecaf797e"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "status": "PASS",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "started_utc": "2026-10-26T15:23:30Z",
+  "generation_run": false,
+  "network_required": false,
+  "stages": {
+    "model_conversion": {
+      "species": 51,
+      "transitions": 41,
+      "rules": 56,
+      "conversion_local_cases": 2420,
+      "admissible_local_cases": 1900,
+      "reference_local_cases": 1728,
+      "status": "PASS",
+      "sbml_sha256": "0be06df8664e0f6e187298753703110063d533384b14f22cabd4b569af06dd65",
+      "generated_sha256": "e15ee45915ca1ff81b363cdf24db1a4f4fab37f250e6b3e57cf8ff9ca52d744d",
+      "wall_seconds": 0.06819904199801385,
+      "reference_file_required": false
+    },
+    "bdd_basic": {
+      "mode": "basic",
+      "events": [
+        {
+          "label": "initial",
+          "seconds": 0.202572,
+          "count": 2,
+          "nodes": 13228
+        }
+      ],
+      "code_sha256": "4221b50922850693a060740429518ee97da3aea272d0996b35aa29e6570332ac",
+      "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "start_utc": "2026-10-26T15:23:30Z",
+      "kernel": {
+        "state_sets": 256,
+        "image_preimage_pairs": 8448
+      },
+      "domain": {
+        "domain_states": 14843406974976,
+        "natural_updates_checked": 46,
+        "atomic_clamps_checked": 2,
+        "preserved": true
+      },
+      "initial_fixed_points": 2,
+      "lower": [
+        {
+          "label": "PI3K",
+          "frames": 49,
+          "difference": [
+            "LATS",
+            "PI3K",
+            "YAP_TAZ"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "ITG_AB",
+          "frames": 37,
+          "difference": [
+            "ITG_AB"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "ZEB",
+          "frames": 38,
+          "difference": [
+            "ZEB",
+            "miR200"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "SNAIL",
+          "frames": 40,
+          "difference": [
+            "SNAIL"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "p120_AJ",
+          "frames": 37,
+          "difference": [
+            "p120_AJ"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "STAT3_NFkB_HIF1a",
+          "frames": 39,
+          "difference": [
+            "HIF1a",
+            "NFkB",
+            "STAT3"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "SLUG",
+          "frames": 53,
+          "difference": [
+            "SLUG"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "AKT",
+          "frames": 49,
+          "difference": [
+            "AKT"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "RAP1",
+          "frames": 40,
+          "difference": [
+            "RAP1"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "HGFR",
+          "frames": 51,
+          "difference": [
+            "BCat",
+            "HGFR",
+            "TCF_LEF"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "RAS",
+          "frames": 54,
+          "difference": [
+            "RAS"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "RAF1",
+          "frames": 60,
+          "difference": [
+            "RAF1"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "MEK",
+          "frames": 61,
+          "difference": [
+            "MEK"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        },
+        {
+          "label": "ERK",
+          "frames": 61,
+          "difference": [
+            "ERK",
+            "FAT4"
+          ],
+          "finite_violation": true,
+          "all_frames_admissible": true
+        }
+      ],
+      "status": "PASS",
+      "wall_seconds": 0.2064309580018744,
+      "cpu_seconds": 0.19515100000000002,
+      "peak_rss_bytes": 33325056,
+      "processes": 1,
+      "cost_usd": 0
+    },
+    "saved_certificates": {
+      "status": "PASS",
+      "claimed_minimum": 14,
+      "lower_disjoint_groups": 14,
+      "upper_S": [
+        "PI3K",
+        "ITG_AB",
+        "SNAIL",
+        "p120_AJ",
+        "SLUG",
+        "AKT",
+        "RAP1",
+        "RAS",
+        "HGFR",
+        "ERK",
+        "MEK",
+        "RAF1",
+        "miR200",
+        "NFkB"
+      ],
+      "initial_fixed_points": 2,
+      "initial_complete_enumeration_proof": true,
+      "cnf_to_model_local_cases": 1728,
+      "inductiveness_queries": 70,
+      "proof_tree_nodes": 75,
+      "unit_steps_checked": 2056,
+      "post_cube_states_checked": 1024,
+      "global_fair_convergence_nodes": 56,
+      "admissibility_local_cases": 324,
+      "controlled_projection_functions": 4,
+      "candidate_observation_bits": 37,
+      "corrupted_trace_rejected": true,
+      "checker_imports_producer_modules": false,
+      "same_process_generation_preceded_checker": false,
+      "independent_agent_review": false,
+      "Lean": false,
+      "wall_seconds": 0.09055516601074487,
+      "cpu_seconds": 0.119211,
+      "peak_rss_bytes": 28033024,
+      "processes": 1,
+      "cost_usd": 0,
+      "scope": "Saved certificates only; no generation. Four-bit atomic clamp, 37 candidate bits. See VERIFICATION-RECORD.md for separate-reviewer and proof-exposure limits; no Lean or native-51-species fairness/optimality claim."
+    },
+    "bdd_all_paths": {
+      "mode": "upper",
+      "events": [
+        {
+          "label": "initial",
+          "seconds": 0.022191,
+          "count": 2,
+          "nodes": 13228
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.028113,
+          "rounds": 1,
+          "states": 112,
+          "nodes": 20819
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.040749,
+          "rounds": 2,
+          "states": 567,
+          "nodes": 20819
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.058945,
+          "rounds": 3,
+          "states": 1773,
+          "nodes": 24374
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.095786,
+          "rounds": 4,
+          "states": 7491,
+          "nodes": 48019
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.142744,
+          "rounds": 5,
+          "states": 17009,
+          "nodes": 57112
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.184337,
+          "rounds": 6,
+          "states": 23282,
+          "nodes": 57112
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.220587,
+          "rounds": 7,
+          "states": 24344,
+          "nodes": 57112
+        },
+        {
+          "label": "stage0_reach",
+          "seconds": 0.25768,
+          "rounds": 8,
+          "states": 24344,
+          "nodes": 57112
+        },
+        {
+          "label": "stage0_fair_avoid",
+          "seconds": 0.283893,
+          "rounds": 1,
+          "states": 0,
+          "nodes": 66829
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.291599,
+          "rounds": 1,
+          "states": 24344,
+          "nodes": 79128
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.358549,
+          "rounds": 2,
+          "states": 54640,
+          "nodes": 83886
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.462626,
+          "rounds": 3,
+          "states": 151912,
+          "nodes": 126538
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.610472,
+          "rounds": 4,
+          "states": 301144,
+          "nodes": 167331
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 0.827547,
+          "rounds": 5,
+          "states": 1118956,
+          "nodes": 256098
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 1.322365,
+          "rounds": 6,
+          "states": 5446258,
+          "nodes": 468192
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 1.819223,
+          "rounds": 7,
+          "states": 10359532,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 2.195203,
+          "rounds": 8,
+          "states": 11834260,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 2.473711,
+          "rounds": 9,
+          "states": 11966266,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 2.751497,
+          "rounds": 10,
+          "states": 12029260,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 3.053428,
+          "rounds": 11,
+          "states": 12031132,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_reach",
+          "seconds": 3.340027,
+          "rounds": 12,
+          "states": 12031132,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 9.647065,
+          "rounds": 1,
+          "states": 12001084,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 20.326629,
+          "rounds": 2,
+          "states": 11956060,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 31.000258,
+          "rounds": 3,
+          "states": 11831836,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 38.908966,
+          "rounds": 4,
+          "states": 11719324,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 43.569669,
+          "rounds": 5,
+          "states": 4413764,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 44.448817,
+          "rounds": 6,
+          "states": 1978,
+          "nodes": 548468
+        },
+        {
+          "label": "stage1_fair_avoid",
+          "seconds": 44.501879,
+          "rounds": 7,
+          "states": 0,
+          "nodes": 548468
+        },
+        {
+          "label": "released_reach",
+          "seconds": 44.505173,
+          "rounds": 1,
+          "states": 1024,
+          "nodes": 548468
+        }
+      ],
+      "code_sha256": "4221b50922850693a060740429518ee97da3aea272d0996b35aa29e6570332ac",
+      "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "start_utc": "2026-10-26T15:23:31Z",
+      "domain": {
+        "domain_states": 14843406974976,
+        "natural_updates_checked": 46,
+        "atomic_clamps_checked": 2,
+        "preserved": true
+      },
+      "initial_fixed_points": 2,
+      "upper": {
+        "stage0_states": 24344,
+        "stage0_gate_states": 6086,
+        "stage1_states": 12031132,
+        "stage1_gate_states": 1024,
+        "released_states": 1024,
+        "fair_avoid_stage0": 0,
+        "fair_avoid_stage1": 0,
+        "all_prefix_safe": true,
+        "released_E1_invariant": true,
+        "all_reachable_admissible": true,
+        "S": [
+          "PI3K",
+          "ITG_AB",
+          "SNAIL",
+          "p120_AJ",
+          "SLUG",
+          "AKT",
+          "RAP1",
+          "RAS",
+          "HGFR",
+          "ERK",
+          "MEK",
+          "RAF1",
+          "miR200",
+          "NFkB"
+        ]
+      },
+      "status": "PASS",
+      "wall_seconds": 44.50702225000714,
+      "cpu_seconds": 44.014291,
+      "peak_rss_bytes": 311246848,
+      "processes": 1,
+      "cost_usd": 0
+    },
+    "kernel_audit": {
+      "start_utc": "2026-10-26T15:24:15Z",
+      "checker_sha256": "4221b50922850693a060740429518ee97da3aea272d0996b35aa29e6570332ac",
+      "audit_sha256": "92051525ba3b81e6a28bf920d42102f0833cda9a821cb502200b7518c01d570d",
+      "fairness": {
+        "explicit_SCC_comparisons": 2048,
+        "nonempty_fair_sets": 1287,
+        "empty_fair_sets": 761
+      },
+      "formulas": {
+        "rules": 56,
+        "local_truth_table_rows": 1728
+      },
+      "negative_controls": [
+        {
+          "mutation": "wrong_initial",
+          "rejected": true,
+          "reason": "initial frame"
+        },
+        {
+          "mutation": "wrong_update_bit",
+          "rejected": true,
+          "reason": "trace transition mismatch PI3K frame 2"
+        },
+        {
+          "mutation": "omit_immediate_phase_switch",
+          "rejected": true,
+          "reason": "first switch is immediate"
+        },
+        {
+          "mutation": "incorrect_release_assignment",
+          "rejected": true,
+          "reason": "release assignment"
+        },
+        {
+          "mutation": "missing_difference",
+          "rejected": true,
+          "reason": "difference mismatch"
+        },
+        {
+          "mutation": "overlapping_witness_differences",
+          "rejected": true,
+          "reason": "differences not pairwise disjoint"
+        },
+        {
+          "mutation": "omit_one_initial_model",
+          "rejected": true,
+          "reason": "complete M3 fixed-point set mismatch"
+        },
+        {
+          "mutation": "unchanged_legacy_witnesses",
+          "rejected": true,
+          "reason": "trace outside admissible domain"
+        },
+        {
+          "mutation": "omit_FAK_SRC_b2_clamp",
+          "rejected": true,
+          "reason": "atomic corrected clamp leaves admissible domain"
+        }
+      ],
+      "previous_comparison": {
+        "same_S": true,
+        "same_initial_models": true,
+        "rows": [
+          {
+            "label": "PI3K",
+            "trace_changed": false,
+            "old_frames": 49,
+            "new_frames": 49,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "ITG_AB",
+            "trace_changed": false,
+            "old_frames": 37,
+            "new_frames": 37,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "ZEB",
+            "trace_changed": false,
+            "old_frames": 38,
+            "new_frames": 38,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "SNAIL",
+            "trace_changed": false,
+            "old_frames": 40,
+            "new_frames": 40,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "p120_AJ",
+            "trace_changed": false,
+            "old_frames": 37,
+            "new_frames": 37,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "STAT3_NFkB_HIF1a",
+            "trace_changed": false,
+            "old_frames": 39,
+            "new_frames": 39,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "SLUG",
+            "trace_changed": false,
+            "old_frames": 53,
+            "new_frames": 53,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "AKT",
+            "trace_changed": false,
+            "old_frames": 49,
+            "new_frames": 49,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "RAP1",
+            "trace_changed": false,
+            "old_frames": 40,
+            "new_frames": 40,
+            "removed_controlled_b2_updates": 0,
+            "remaining_frames_with_changed_state": 0,
+            "old_inadmissible_frames": 0,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "HGFR",
+            "trace_changed": true,
+            "old_frames": 52,
+            "new_frames": 51,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 36,
+            "old_inadmissible_frames": 36,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "RAS",
+            "trace_changed": true,
+            "old_frames": 55,
+            "new_frames": 54,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 37,
+            "old_inadmissible_frames": 37,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "RAF1",
+            "trace_changed": true,
+            "old_frames": 61,
+            "new_frames": 60,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 38,
+            "old_inadmissible_frames": 38,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "MEK",
+            "trace_changed": true,
+            "old_frames": 62,
+            "new_frames": 61,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 39,
+            "old_inadmissible_frames": 39,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          },
+          {
+            "label": "ERK",
+            "trace_changed": true,
+            "old_frames": 62,
+            "new_frames": 61,
+            "removed_controlled_b2_updates": 1,
+            "remaining_frames_with_changed_state": 40,
+            "old_inadmissible_frames": 40,
+            "new_inadmissible_frames": 0,
+            "same_difference": true,
+            "same_release_state": true,
+            "transformed_path_matches": true
+          }
+        ],
+        "changed_labels": [
+          "HGFR",
+          "RAS",
+          "RAF1",
+          "MEK",
+          "ERK"
+        ]
+      },
+      "status": "PASS",
+      "wall_seconds": 0.1901040410011774,
+      "cpu_seconds": 0.184038,
+      "peak_rss_bytes": 32440320,
+      "processes": 1,
+      "cost_usd": 0
+    }
+  },
+  "negative_controls": [
+    {
+      "mutation": "trace_bit",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "release_assignment",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "proof_reason",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "sensor_count",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "cnf_model_binding",
+      "checker": "saved_certificates",
+      "rejected": true
+    },
+    {
+      "mutation": "sbml_source_hash",
+      "checker": "model_conversion",
+      "rejected": true
+    },
+    {
+      "mutation": "derived_formula",
+      "checker": "model_conversion",
+      "rejected": true
+    },
+    {
+      "mutation": "comparison_truth_hash",
+      "checker": "model_conversion",
+      "rejected": true
+    },
+    {
+      "mutation": "python_-O",
+      "rejected": true
+    },
+    {
+      "mutation": "witness_file_hash",
+      "rejected": true
+    }
+  ],
+  "manifest_files": 36,
+  "wall_seconds": 46.07768029200088,
+  "max_parallel_compute_processes": 1
+}

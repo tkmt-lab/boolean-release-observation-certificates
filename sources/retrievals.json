@@ -1,0 +1,62 @@
+[
+  {
+    "path": "sources/model.json",
+    "url": "https://www.biomodels.org/MODEL2004040001?format=json",
+    "resolved_url": "https://www.biomodels.org/MODEL2004040001?format=json",
+    "status": 200,
+    "size": 5337,
+    "sha256": "6ecbc91bbd12360ffe05cb9363d21f6d80802cb022f4a43775e3204c06991906",
+    "retrieved_utc": "2026-10-26T15:15:17.734565+00:00",
+    "bundled": false,
+    "cache_note": "Original response retained in local evidence cache; public packet contains a metadata copy omitting contributor email fields."
+  },
+  {
+    "path": "sources/files.json",
+    "url": "https://www.biomodels.org/model/files/MODEL2004040001?format=json",
+    "resolved_url": "https://www.biomodels.org/model/files/MODEL2004040001?format=json",
+    "status": 200,
+    "size": 419,
+    "sha256": "fcecc6b20aeece728d354fd39986e46397d9876978e82913c057ad17db74e26b",
+    "retrieved_utc": "2026-10-26T15:15:18.217080+00:00",
+    "bundled": true
+  },
+  {
+    "path": "sources/Selvaggio_etal_2020.sbml",
+    "url": "https://www.biomodels.org/model/download/MODEL2004040001?filename=Selvaggio_etal_2020.sbml",
+    "resolved_url": "https://www.biomodels.org/model/download/MODEL2004040001?filename=Selvaggio_etal_2020.sbml",
+    "status": 200,
+    "size": 210053,
+    "sha256": "0be06df8664e0f6e187298753703110063d533384b14f22cabd4b569af06dd65",
+    "retrieved_utc": "2026-10-26T15:15:18.798513+00:00",
+    "bundled": true
+  },
+  {
+    "path": "sources/terms.html",
+    "url": "https://www.biomodels.org/termsofuse",
+    "resolved_url": "https://www.biomodels.org/termsofuse",
+    "status": 200,
+    "size": 35907,
+    "sha256": "131ef1f9d991912d268bbe98cb2f63e79795914a59c60a1cffd2b23b8b220e9d",
+    "retrieved_utc": "2026-10-26T15:15:18.963522+00:00",
+    "bundled": false,
+    "cache_note": "Retrieved HTML retained only in local evidence cache; terms summarized in THIRD-PARTY-NOTICES.md"
+  },
+  {
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+    "status": 403,
+    "bundled": false,
+    "note": "Optional license-text download failed. Official license URL is linked in LICENSE; no substitute text supplied."
+  },
+  {
+    "path": "sources/model-metadata.json",
+    "bundled": true,
+    "derived_from_sha256": "6ecbc91bbd12360ffe05cb9363d21f6d80802cb022f4a43775e3204c06991906",
+    "removed_fields": [
+      "contributors.Modeller[0].email",
+      "contributors.Modeller[1].email"
+    ],
+    "size": 5082,
+    "sha256": "ddc4226da43c9078caa7d677ea2cc4a7e8b85cbd0ac830ddf2465670adaf2526",
+    "note": "Only contributor email fields omitted; other parsed JSON values unchanged. Original response hash retained above."
+  }
+]

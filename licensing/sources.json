@@ -1,0 +1,95 @@
+{
+  "checked_utc_date": "2026-10-26",
+  "primary_sources": [
+    {
+      "id": "biomodels-terms",
+      "url": "https://www.biomodels.org/termsofuse",
+      "final_url": "https://www.biomodels.org/termsofuse",
+      "status": 200,
+      "bytes": 35907,
+      "sha256": "131ef1f9d991912d268bbe98cb2f63e79795914a59c60a1cffd2b23b8b220e9d",
+      "retrieved_utc": "2026-10-26T14:41:12.947609+00:00"
+    },
+    {
+      "id": "biomodels-record",
+      "url": "https://www.biomodels.org/MODEL2004040001",
+      "final_url": "https://www.biomodels.org/MODEL2004040001",
+      "status": 200,
+      "bytes": 34555,
+      "sha256": "4b7a809d8a284dd8a5d22565b3c3b0ecaefd6dfac0c5946f6edd697e5d2b948a",
+      "retrieved_utc": "2026-10-26T14:41:13.191134+00:00"
+    },
+    {
+      "id": "ginsim-model-record",
+      "url": "https://ginsim.github.io/models/2020-mammal-emt-microenvironment/",
+      "final_url": "https://ginsim.github.io/models/2020-mammal-emt-microenvironment/",
+      "status": 200,
+      "bytes": 19983,
+      "sha256": "d903ad6b5bba564f03cf377a4b8a7d9d183803b20919160afadd61711f43b724",
+      "retrieved_utc": "2026-10-26T14:41:13.398667+00:00"
+    },
+    {
+      "id": "ginsim-install",
+      "url": "https://ginsim.github.io/install/",
+      "final_url": "https://ginsim.github.io/install/",
+      "status": 200,
+      "bytes": 25055,
+      "sha256": "1fb6336cddf78aafa698b4d0b64c695531e5b8adf975af4970b65bd015a33569",
+      "retrieved_utc": "2026-10-26T14:41:13.601273+00:00"
+    },
+    {
+      "id": "pyboolnet-setup",
+      "url": "https://raw.githubusercontent.com/hklarner/pyboolnet/master/setup.py",
+      "final_url": "https://raw.githubusercontent.com/hklarner/pyboolnet/master/setup.py",
+      "status": 200,
+      "bytes": 2228,
+      "sha256": "b98f2d383a8e8b7eedece4c6d77fea73476342a7f50a548c1bfe9cff726606d2",
+      "retrieved_utc": "2026-10-26T14:41:13.859790+00:00"
+    },
+    {
+      "id": "pyboolnet-model-pinned",
+      "url": "https://raw.githubusercontent.com/hklarner/pyboolnet/866a84d57935735ea781b0cc96e6df74a3ac0b52/pyboolnet/repository/selvaggio_emt/selvaggio_emt.bnet",
+      "final_url": "https://raw.githubusercontent.com/hklarner/pyboolnet/866a84d57935735ea781b0cc96e6df74a3ac0b52/pyboolnet/repository/selvaggio_emt/selvaggio_emt.bnet",
+      "status": 200,
+      "bytes": 2968,
+      "sha256": "7772a1a17eed3dc344941d0788e3e4458607efa6ba1c93832eeb0d40ac7d449a",
+      "retrieved_utc": "2026-10-26T14:41:14.096834+00:00"
+    },
+    {
+      "id": "pyboolnet-tree",
+      "url": "https://api.github.com/repos/hklarner/pyboolnet/git/trees/master?recursive=1",
+      "final_url": "https://api.github.com/repos/hklarner/pyboolnet/git/trees/master?recursive=1",
+      "status": 200,
+      "bytes": 129676,
+      "sha256": "ac2b8f2161ece144f274e01767acef17cdf61756e26181dd82423bb69d702995",
+      "retrieved_utc": "2026-10-26T14:41:14.506521+00:00",
+      "commit_or_tree_sha": "3394310d07e3e25810a828d8da4f6d7241115113",
+      "license_named_paths": [
+        "binaries/mac64/clasp-3.2.0/COPYING",
+        "binaries/mac64/gringo-4.4.0/COPYING",
+        "binaries/win64/clasp-3.1.1/COPYING",
+        "binaries/win64/gringo-4.4.0/COPYING"
+      ],
+      "truncated": false
+    },
+    {
+      "id": "ginsim-website-tree",
+      "url": "https://api.github.com/repos/GINsim/GINsim.github.io/git/trees/mkdocs?recursive=1",
+      "final_url": "https://api.github.com/repos/GINsim/GINsim.github.io/git/trees/mkdocs?recursive=1",
+      "status": 200,
+      "bytes": 147719,
+      "sha256": "d479e8a4adcfda49e74b33818d0b2851f5754819009e6b68e9bd71f0c3c58621",
+      "retrieved_utc": "2026-10-26T14:41:14.995052+00:00",
+      "commit_or_tree_sha": "ebf089b0c58a55b99d0dd07b86abfeec44f8ecaf",
+      "license_named_paths": [],
+      "truncated": false
+    }
+  ],
+  "biomodels_encoded_models": "CC0 verified from current terms",
+  "ginsim_software": "GPL-3.0; no inference for model data",
+  "pyboolnet_classifier": "LGPL, version not specified; file-specific model grant not established",
+  "historical_redistribution_status": "HOLD_EXACT_BNET_TERMS_UNRESOLVED",
+  "redistribution_status": "RESOLVED_BY_BIOMODELS_CC0_SOURCE_REPLACEMENT",
+  "current_evidence": "../sources/retrievals.json",
+  "historical_record_note": "Earlier retrievals and bounded searches retained as provenance; the old bnet is no longer bundled."
+}

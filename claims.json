@@ -1,0 +1,157 @@
+{
+  "version": "1.0.0",
+  "status": "release",
+  "scope": {
+    "rules": 56,
+    "model_sha256": "e15ee45915ca1ff81b363cdf24db1a4f4fab37f250e6b3e57cf8ff9ca52d744d",
+    "controlled_bits": [
+      "ECad",
+      "PAK",
+      "FAK_SRC_b1",
+      "FAK_SRC_b2"
+    ],
+    "candidate_observation_bits": 37,
+    "cost": "number of extra observed Boolean bits",
+    "specification": "SPEC.md",
+    "guard_family": "A fixed set S selected once; first E1 state whose current values on S equal the reference state."
+  },
+  "claims": [
+    {
+      "id": "M3-2",
+      "statement": "Exactly two unforced M3 fixed points under the fixed environment.",
+      "evidence": [
+        "certificates/initial-fixed-points.json",
+        "scripts/certificate_check.py",
+        "scripts/bdd_check.py"
+      ]
+    },
+    {
+      "id": "LB-14",
+      "statement": "No set of at most 13 additional observation bits satisfies the specified all-path requirements.",
+      "evidence": [
+        "inputs/witnesses.json",
+        "certificates/lower-result.json",
+        "scripts/bdd_check.py"
+      ],
+      "argument": "14 checked admissible finite counterexamples with pairwise disjoint nonempty difference sets."
+    },
+    {
+      "id": "UB-14",
+      "statement": "The given 14-bit set gives prefix safety, finite guards on all fair paths and E1 persistence after release.",
+      "evidence": [
+        "certificates/upper-result.json",
+        "certificates/liveness.json",
+        "scripts/certificate_check.py",
+        "scripts/bdd_check.py"
+      ]
+    },
+    {
+      "id": "OPT-14",
+      "statement": "The minimum additional observation cost for this frozen protocol is 14 bits.",
+      "depends_on": [
+        "M3-2",
+        "LB-14",
+        "UB-14"
+      ]
+    },
+    {
+      "id": "DOMAIN",
+      "statement": "The four threshold chains remain admissible under natural updates and corrected atomic clamps; all checked paths and reachable states are admissible.",
+      "evidence": [
+        "scripts/certificate_check.py",
+        "scripts/bdd_check.py"
+      ]
+    },
+    {
+      "id": "UNIQUE-14",
+      "statement": "Exactly one 14-bit observation set satisfies the fixed protocol. Among the 108 size-14 sets that hit all fourteen difference sets, 107 admit a violating path released at a state that is the first E1 state on that path, followed by a finite continuation that loses E1.",
+      "evidence": [
+        "certificates/optimal-sets.json",
+        "scripts/unique_check.py",
+        "scripts/bdd_check.py",
+        "inputs/witnesses.json"
+      ],
+      "depends_on": [
+        "LB-14",
+        "UB-14"
+      ],
+      "verification_boundary": "One ROBDD implementation route, recomputed from the model and witnesses; not independently checked by the saved-certificate consumer. Individual violating paths for the 107 exclusions are not bundled."
+    },
+    {
+      "id": "DELETE-ESSENTIAL-14",
+      "statement": "Removing any one bit leaves 13 bits and therefore fails by LB-14; the deletion certificate identifies the responsible checked finite witness. This is deletion necessity within the unique optimal set.",
+      "evidence": [
+        "certificates/optimal-sets.json",
+        "inputs/witnesses.json",
+        "scripts/unique_check.py"
+      ],
+      "depends_on": [
+        "LB-14"
+      ]
+    }
+  ],
+  "excluded_claims": [
+    "native 51-species fair-path or observation-cost equivalence",
+    "biological or therapeutic effectiveness or safety",
+    "new general control method",
+    "exhaustive prior-art coverage or priority",
+    "proof-blind independent derivation",
+    "Lean formalization",
+    "human peer review",
+    "optimality over other guards, observation histories or interventions",
+    "all fourteen bits are mandatory in every successful larger observation set"
+  ],
+  "independence": "Separate reviewer and ROBDD implementation; earlier proof read; revised proof/code unseen at verification time, brief revised certificate synopsis exposed; packaging subsequently reads producer checker.",
+  "public_release": false,
+  "redistribution_gate": "RESOLVED: bundled CC0 BioModels SBML and deterministic 56-rule derivation; old PyBoolNet bnet omitted; all local functions equal.",
+  "verification_receipt": "verification/local.json",
+  "hosted_ci_executed": false,
+  "candidate_replay_status": "PASS",
+  "negative_controls": {
+    "bdd_kernel_and_protocol": 9,
+    "certificate_semantic": 5,
+    "conversion": 3,
+    "optimized_execution_and_hash": 2
+  },
+  "literature_position": "A bounded final comparison supports model-specific positioning; no priority claim.",
+  "model_source": {
+    "path": "sources/Selvaggio_etal_2020.sbml",
+    "sha256": "0be06df8664e0f6e187298753703110063d533384b14f22cabd4b569af06dd65",
+    "license": "CC0-1.0",
+    "conversion": "scripts/convert_model.py",
+    "reference_local_assignments": 1728,
+    "functions_equal": 56
+  },
+  "uniqueness_independent_replay_status": "PASS",
+  "uniqueness_independent_receipt": "verification/uniqueness-local.json",
+  "uniqueness_scope": "unique among size-14 sets; each member essential when deleted from that set; no all-larger-set mandatory claim",
+  "previous_clean_clone": {
+    "wall_seconds": 46.07768029200088,
+    "environment": "CPython 3.14.7, macOS arm64, local clean clone",
+    "source": "BioModels CC0 SBML conversion",
+    "receipt": "verification/biomodels-local.json",
+    "predates_uniqueness_addition": true
+  },
+  "candidate_replay_wall_seconds": 111.46589858300285,
+  "candidate_replay_environment": "CPython 3.14.7, macOS arm64, local clean clone",
+  "candidate_replay_source": "BioModels CC0 SBML and unique optimal 14-set addition",
+  "publication_authorization": {
+    "status": "authorized",
+    "owner_decision_date": "2026-10-26",
+    "published": false,
+    "release_date": "2026-11-04"
+  },
+  "candidate_replay_note": "The candidate_replay fields above describe the earlier uniqueness-addition run in verification/local.json.",
+  "editorial_revision_replay": {
+    "status": "PASS",
+    "date": "2026-10-28",
+    "receipt": "verification/editorial-local.json",
+    "input_manifest": "verification/editorial-input-manifest.json",
+    "wall_seconds": 96.48409333397285,
+    "clone_clean_before_and_after": true,
+    "mathematical_inputs_unchanged": true,
+    "logic_unchanged": true,
+    "hosted_ci_executed": false
+  },
+  "release_date": "2026-11-04"
+}

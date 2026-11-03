@@ -1,0 +1,3490 @@
+{
+  "status": "PASS",
+  "next15_code_or_proof_or_result_read": false,
+  "additional_agent_used": false,
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "started_utc": "2026-10-26T16:25:09Z",
+  "domain": {
+    "domain_states": 14843406974976,
+    "natural_updates_checked": 46,
+    "atomic_clamps_checked": 2,
+    "preserved": true
+  },
+  "replayed_lower_witnesses": [
+    {
+      "label": "PI3K",
+      "frames": 49,
+      "difference": [
+        "LATS",
+        "PI3K",
+        "YAP_TAZ"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "ITG_AB",
+      "frames": 37,
+      "difference": [
+        "ITG_AB"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "ZEB",
+      "frames": 38,
+      "difference": [
+        "ZEB",
+        "miR200"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "SNAIL",
+      "frames": 40,
+      "difference": [
+        "SNAIL"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "p120_AJ",
+      "frames": 37,
+      "difference": [
+        "p120_AJ"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "STAT3_NFkB_HIF1a",
+      "frames": 39,
+      "difference": [
+        "HIF1a",
+        "NFkB",
+        "STAT3"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "SLUG",
+      "frames": 53,
+      "difference": [
+        "SLUG"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "AKT",
+      "frames": 49,
+      "difference": [
+        "AKT"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "RAP1",
+      "frames": 40,
+      "difference": [
+        "RAP1"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "HGFR",
+      "frames": 51,
+      "difference": [
+        "BCat",
+        "HGFR",
+        "TCF_LEF"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "RAS",
+      "frames": 54,
+      "difference": [
+        "RAS"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "RAF1",
+      "frames": 60,
+      "difference": [
+        "RAF1"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "MEK",
+      "frames": 61,
+      "difference": [
+        "MEK"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    },
+    {
+      "label": "ERK",
+      "frames": 61,
+      "difference": [
+        "ERK",
+        "FAT4"
+      ],
+      "finite_violation": true,
+      "all_frames_admissible": true
+    }
+  ],
+  "original_S": [
+    "AKT",
+    "ERK",
+    "HGFR",
+    "ITG_AB",
+    "MEK",
+    "NFkB",
+    "PI3K",
+    "RAF1",
+    "RAP1",
+    "RAS",
+    "SLUG",
+    "SNAIL",
+    "miR200",
+    "p120_AJ"
+  ],
+  "common_sets": {
+    "phase0_states": 24344,
+    "phase0_gate": 6086,
+    "unreleased_phase1": 12031132,
+    "all_E1": 3997780,
+    "first_E1": 3997780,
+    "first_E1_equals_all_E1": true,
+    "released_E1_kernel": 14336,
+    "kernel_iteration_counts": [
+      12394496,
+      266368,
+      42688,
+      16160,
+      14336,
+      14336
+    ]
+  },
+  "classification": [
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1536,
+      "first_E1_guard_states": 1536,
+      "bad_first_E1_release_states": 1280,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 1152,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1520,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1760,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1536,
+      "first_E1_guard_states": 1536,
+      "bad_first_E1_release_states": 1280,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 1152,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1536,
+      "first_E1_guard_states": 1536,
+      "bad_first_E1_release_states": 1152,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 1088,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1280,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1632,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1536,
+      "first_E1_guard_states": 1536,
+      "bad_first_E1_release_states": 1152,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 1088,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1536,
+      "first_E1_guard_states": 1536,
+      "bad_first_E1_release_states": 1216,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 1120,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1376,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1680,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1536,
+      "first_E1_guard_states": 1536,
+      "bad_first_E1_release_states": 1216,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 1120,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 768,
+      "first_E1_guard_states": 768,
+      "bad_first_E1_release_states": 608,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 560,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 688,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 832,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 768,
+      "first_E1_guard_states": 768,
+      "bad_first_E1_release_states": 608,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 560,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 768,
+      "first_E1_guard_states": 768,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 736,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 768,
+      "first_E1_guard_states": 768,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 768,
+      "first_E1_guard_states": 768,
+      "bad_first_E1_release_states": 576,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 544,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 608,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 784,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 768,
+      "first_E1_guard_states": 768,
+      "bad_first_E1_release_states": 576,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "LATS",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 544,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1792,
+      "first_E1_guard_states": 1792,
+      "bad_first_E1_release_states": 1280,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1408,
+      "first_E1_guard_states": 1408,
+      "bad_first_E1_release_states": 1152,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 992,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1472,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1792,
+      "first_E1_guard_states": 1792,
+      "bad_first_E1_release_states": 1280,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1408,
+      "first_E1_guard_states": 1408,
+      "bad_first_E1_release_states": 1152,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1792,
+      "first_E1_guard_states": 1792,
+      "bad_first_E1_release_states": 1024,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1408,
+      "first_E1_guard_states": 1408,
+      "bad_first_E1_release_states": 1024,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1216,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1792,
+      "first_E1_guard_states": 1792,
+      "bad_first_E1_release_states": 1024,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1408,
+      "first_E1_guard_states": 1408,
+      "bad_first_E1_release_states": 1024,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1792,
+      "first_E1_guard_states": 1792,
+      "bad_first_E1_release_states": 1152,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1408,
+      "first_E1_guard_states": 1408,
+      "bad_first_E1_release_states": 1088,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 704,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1312,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1792,
+      "first_E1_guard_states": 1792,
+      "bad_first_E1_release_states": 1152,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1408,
+      "first_E1_guard_states": 1408,
+      "bad_first_E1_release_states": 1088,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 896,
+      "first_E1_guard_states": 896,
+      "bad_first_E1_release_states": 576,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 704,
+      "first_E1_guard_states": 704,
+      "bad_first_E1_release_states": 544,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 352,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 640,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 896,
+      "first_E1_guard_states": 896,
+      "bad_first_E1_release_states": 576,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 704,
+      "first_E1_guard_states": 704,
+      "bad_first_E1_release_states": 544,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 896,
+      "first_E1_guard_states": 896,
+      "bad_first_E1_release_states": 384,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 704,
+      "first_E1_guard_states": 704,
+      "bad_first_E1_release_states": 448,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 0,
+      "classification": "valid_optimal_14_set"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 448,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 896,
+      "first_E1_guard_states": 896,
+      "bad_first_E1_release_states": 384,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 704,
+      "first_E1_guard_states": 704,
+      "bad_first_E1_release_states": 448,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 896,
+      "first_E1_guard_states": 896,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 704,
+      "first_E1_guard_states": 704,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 192,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 544,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 896,
+      "first_E1_guard_states": 896,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 704,
+      "first_E1_guard_states": 704,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 1024,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1152,
+      "first_E1_guard_states": 1152,
+      "bad_first_E1_release_states": 1024,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1520,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1760,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 1024,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1152,
+      "first_E1_guard_states": 1152,
+      "bad_first_E1_release_states": 1024,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 896,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1152,
+      "first_E1_guard_states": 1152,
+      "bad_first_E1_release_states": 960,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1280,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1632,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 896,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1152,
+      "first_E1_guard_states": 1152,
+      "bad_first_E1_release_states": 960,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 960,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1152,
+      "first_E1_guard_states": 1152,
+      "bad_first_E1_release_states": 992,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1376,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 2048,
+      "first_E1_guard_states": 2048,
+      "bad_first_E1_release_states": 1680,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1280,
+      "first_E1_guard_states": 1280,
+      "bad_first_E1_release_states": 960,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "ZEB",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1152,
+      "first_E1_guard_states": 1152,
+      "bad_first_E1_release_states": 992,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 480,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 576,
+      "first_E1_guard_states": 576,
+      "bad_first_E1_release_states": 496,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 688,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 832,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 480,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HIF1a",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 576,
+      "first_E1_guard_states": 576,
+      "bad_first_E1_release_states": 496,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 384,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 576,
+      "first_E1_guard_states": 576,
+      "bad_first_E1_release_states": 448,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 512,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 736,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 384,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 576,
+      "first_E1_guard_states": 576,
+      "bad_first_E1_release_states": 448,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 448,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "BCat",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 576,
+      "first_E1_guard_states": 576,
+      "bad_first_E1_release_states": 480,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 608,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 1024,
+      "first_E1_guard_states": 1024,
+      "bad_first_E1_release_states": 784,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 640,
+      "first_E1_guard_states": 640,
+      "bad_first_E1_release_states": 448,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    },
+    {
+      "S": [
+        "AKT",
+        "FAT4",
+        "ITG_AB",
+        "MEK",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "STAT3",
+        "TCF_LEF",
+        "YAP_TAZ",
+        "miR200",
+        "p120_AJ"
+      ],
+      "all_E1_guard_states": 576,
+      "first_E1_guard_states": 576,
+      "bad_first_E1_release_states": 480,
+      "classification": "finite_E1_violation_after_first_E1_release"
+    }
+  ],
+  "full_candidate_checks": [
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "status": "PASS",
+      "all_path_result": {
+        "stage0_states": 24344,
+        "stage0_gate_states": 6086,
+        "stage1_states": 12031132,
+        "stage1_gate_states": 1024,
+        "released_states": 1024,
+        "fair_avoid_stage0": 0,
+        "fair_avoid_stage1": 0,
+        "all_prefix_safe": true,
+        "released_E1_invariant": true,
+        "all_reachable_admissible": true,
+        "S": [
+          "AKT",
+          "ERK",
+          "HGFR",
+          "ITG_AB",
+          "MEK",
+          "NFkB",
+          "PI3K",
+          "RAF1",
+          "RAP1",
+          "RAS",
+          "SLUG",
+          "SNAIL",
+          "miR200",
+          "p120_AJ"
+        ]
+      }
+    }
+  ],
+  "valid_optimal_sets": [
+    [
+      "AKT",
+      "ERK",
+      "HGFR",
+      "ITG_AB",
+      "MEK",
+      "NFkB",
+      "PI3K",
+      "RAF1",
+      "RAP1",
+      "RAS",
+      "SLUG",
+      "SNAIL",
+      "miR200",
+      "p120_AJ"
+    ]
+  ],
+  "deletion_certificates": [
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "AKT",
+      "violating_witness": "AKT",
+      "missed_difference": [
+        "AKT"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "ERK",
+      "violating_witness": "ERK",
+      "missed_difference": [
+        "ERK",
+        "FAT4"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "HGFR",
+      "violating_witness": "HGFR",
+      "missed_difference": [
+        "BCat",
+        "HGFR",
+        "TCF_LEF"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "ITG_AB",
+      "violating_witness": "ITG_AB",
+      "missed_difference": [
+        "ITG_AB"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "MEK",
+      "violating_witness": "MEK",
+      "missed_difference": [
+        "MEK"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "NFkB",
+      "violating_witness": "STAT3_NFkB_HIF1a",
+      "missed_difference": [
+        "HIF1a",
+        "NFkB",
+        "STAT3"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "PI3K",
+      "violating_witness": "PI3K",
+      "missed_difference": [
+        "LATS",
+        "PI3K",
+        "YAP_TAZ"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "RAF1",
+      "violating_witness": "RAF1",
+      "missed_difference": [
+        "RAF1"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "RAP1",
+      "violating_witness": "RAP1",
+      "missed_difference": [
+        "RAP1"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "RAS",
+      "violating_witness": "RAS",
+      "missed_difference": [
+        "RAS"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "SLUG",
+      "violating_witness": "SLUG",
+      "missed_difference": [
+        "SLUG"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "SNAIL",
+      "violating_witness": "SNAIL",
+      "missed_difference": [
+        "SNAIL"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "miR200",
+      "violating_witness": "ZEB",
+      "missed_difference": [
+        "ZEB",
+        "miR200"
+      ]
+    },
+    {
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ],
+      "removed_bit": "p120_AJ",
+      "violating_witness": "p120_AJ",
+      "missed_difference": [
+        "p120_AJ"
+      ]
+    }
+  ],
+  "verdict": {
+    "unique_optimal_14_set": true,
+    "optimal_14_set_count": 1,
+    "every_bit_essential_within_each_reported_set": true,
+    "common_bits_of_optimal_sets": [
+      "AKT",
+      "ERK",
+      "HGFR",
+      "ITG_AB",
+      "MEK",
+      "NFkB",
+      "PI3K",
+      "RAF1",
+      "RAP1",
+      "RAS",
+      "SLUG",
+      "SNAIL",
+      "miR200",
+      "p120_AJ"
+    ],
+    "all_108_guards_reachable": true,
+    "scope": "specified Boolean current-value equality guards, fixed inputs and four-bit intervention; no general-guard or native-multivalued claim",
+    "all_original_bits_in_every_optimal_14_set": true
+  },
+  "events": [
+    {
+      "label": "phase0",
+      "seconds": 0.04233445800491609,
+      "rounds": 1,
+      "states": 112,
+      "nodes": 20797
+    },
+    {
+      "label": "phase0",
+      "seconds": 0.05512754200026393,
+      "rounds": 2,
+      "states": 567,
+      "nodes": 20797
+    },
+    {
+      "label": "phase0",
+      "seconds": 0.0724510830041254,
+      "rounds": 3,
+      "states": 1773,
+      "nodes": 24355
+    },
+    {
+      "label": "phase0",
+      "seconds": 0.10945129199535586,
+      "rounds": 4,
+      "states": 7491,
+      "nodes": 48000
+    },
+    {
+      "label": "phase0",
+      "seconds": 0.1580549170030281,
+      "rounds": 5,
+      "states": 17009,
+      "nodes": 57093
+    },
+    {
+      "label": "phase0",
+      "seconds": 0.20382608300133143,
+      "rounds": 6,
+      "states": 23282,
+      "nodes": 57093
+    },
+    {
+      "label": "phase0",
+      "seconds": 0.24468591700133402,
+      "rounds": 7,
+      "states": 24344,
+      "nodes": 57093
+    },
+    {
+      "label": "phase0",
+      "seconds": 0.28250854200450704,
+      "rounds": 8,
+      "states": 24344,
+      "nodes": 57093
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 0.2920747919997666,
+      "rounds": 1,
+      "states": 24344,
+      "nodes": 57442
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 0.36112524999771267,
+      "rounds": 2,
+      "states": 54640,
+      "nodes": 83849
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 0.4674667499930365,
+      "rounds": 3,
+      "states": 151912,
+      "nodes": 121706
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 0.6003165419970173,
+      "rounds": 4,
+      "states": 301144,
+      "nodes": 158180
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 0.7977146670018556,
+      "rounds": 5,
+      "states": 1118956,
+      "nodes": 242208
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 1.18535170800169,
+      "rounds": 6,
+      "states": 5446258,
+      "nodes": 443629
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 1.6607302079937654,
+      "rounds": 7,
+      "states": 10359532,
+      "nodes": 528003
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 2.0237156670045806,
+      "rounds": 8,
+      "states": 11834260,
+      "nodes": 528003
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 2.304310457999236,
+      "rounds": 9,
+      "states": 11966266,
+      "nodes": 528003
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 2.5790332080068765,
+      "rounds": 10,
+      "states": 12029260,
+      "nodes": 528003
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 2.8644789579993812,
+      "rounds": 11,
+      "states": 12031132,
+      "nodes": 528003
+    },
+    {
+      "label": "unreleased_phase1",
+      "seconds": 3.1628690420038765,
+      "rounds": 12,
+      "states": 12031132,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 3.1899357920046896,
+      "rounds": 1,
+      "states": 24344,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 3.2915503330004867,
+      "rounds": 2,
+      "states": 54640,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 3.4180709999927785,
+      "rounds": 3,
+      "states": 125488,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 3.567341125002713,
+      "rounds": 4,
+      "states": 251496,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 3.787686791998567,
+      "rounds": 5,
+      "states": 846544,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 4.220950542003266,
+      "rounds": 6,
+      "states": 4003872,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 4.743633624995709,
+      "rounds": 7,
+      "states": 8721774,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 5.146282792004058,
+      "rounds": 8,
+      "states": 11342684,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 5.449425541999517,
+      "rounds": 9,
+      "states": 11922264,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 5.7305857080064015,
+      "rounds": 10,
+      "states": 12008262,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 6.013944958001957,
+      "rounds": 11,
+      "states": 12030508,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 6.3107415830018,
+      "rounds": 12,
+      "states": 12031132,
+      "nodes": 528003
+    },
+    {
+      "label": "first_E1_phase1",
+      "seconds": 6.592589958003373,
+      "rounds": 13,
+      "states": 12031132,
+      "nodes": 528003
+    },
+    {
+      "label": "released_E1_kernel",
+      "seconds": 6.625264250003966,
+      "rounds": 1,
+      "states": 12394496
+    },
+    {
+      "label": "released_E1_kernel",
+      "seconds": 6.667656582998461,
+      "rounds": 2,
+      "states": 266368
+    },
+    {
+      "label": "released_E1_kernel",
+      "seconds": 6.698225957996328,
+      "rounds": 3,
+      "states": 42688
+    },
+    {
+      "label": "released_E1_kernel",
+      "seconds": 6.730517125004553,
+      "rounds": 4,
+      "states": 16160
+    },
+    {
+      "label": "released_E1_kernel",
+      "seconds": 6.758392457995797,
+      "rounds": 5,
+      "states": 14336
+    },
+    {
+      "label": "released_E1_kernel",
+      "seconds": 6.786607874993933,
+      "rounds": 6,
+      "states": 14336
+    },
+    {
+      "label": "safety_classification",
+      "seconds": 6.803300291998312,
+      "family": 108,
+      "unsafe": 107,
+      "survivors": 1
+    },
+    {
+      "label": "candidate_full_check",
+      "seconds": 6.803357374999905,
+      "S": [
+        "AKT",
+        "ERK",
+        "HGFR",
+        "ITG_AB",
+        "MEK",
+        "NFkB",
+        "PI3K",
+        "RAF1",
+        "RAP1",
+        "RAS",
+        "SLUG",
+        "SNAIL",
+        "miR200",
+        "p120_AJ"
+      ]
+    },
+    {
+      "label": "stage0_reach",
+      "seconds": 6.809609792006086,
+      "rounds": 1,
+      "states": 112,
+      "nodes": 528003
+    },
+    {
+      "label": "stage0_reach",
+      "seconds": 6.839236832995084,
+      "rounds": 2,
+      "states": 567,
+      "nodes": 528003
+    },
+    {
+      "label": "stage0_reach",
+      "seconds": 6.874853083005291,
+      "rounds": 3,
+      "states": 1773,
+      "nodes": 528003
+    },
+    {
+      "label": "stage0_reach",
+      "seconds": 6.9307139169977745,
+      "rounds": 4,
+      "states": 7491,
+      "nodes": 528003
+    },
+    {
+      "label": "stage0_reach",
+      "seconds": 6.9919243329932215,
+      "rounds": 5,
+      "states": 17009,
+      "nodes": 528003
+    },
+    {
+      "label": "stage0_reach",
+      "seconds": 7.051166791992728,
+      "rounds": 6,
+      "states": 23282,
+      "nodes": 528003
+    },
+    {
+      "label": "stage0_reach",
+      "seconds": 7.10522262500308,
+      "rounds": 7,
+      "states": 24344,
+      "nodes": 528003
+    },
+    {
+      "label": "stage0_reach",
+      "seconds": 7.162325917000999,
+      "rounds": 8,
+      "states": 24344,
+      "nodes": 528003
+    },
+    {
+      "label": "stage0_fair_avoid",
+      "seconds": 7.190158249999513,
+      "rounds": 1,
+      "states": 0,
+      "nodes": 528003
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 7.199737332994118,
+      "rounds": 1,
+      "states": 24344,
+      "nodes": 528003
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 7.29276920799748,
+      "rounds": 2,
+      "states": 54640,
+      "nodes": 528003
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 7.419376167003065,
+      "rounds": 3,
+      "states": 151912,
+      "nodes": 528003
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 7.591390417001094,
+      "rounds": 4,
+      "states": 301144,
+      "nodes": 528003
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 7.825871541994275,
+      "rounds": 5,
+      "states": 1118956,
+      "nodes": 528003
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 8.795636249997187,
+      "rounds": 6,
+      "states": 5446258,
+      "nodes": 528003
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 9.538994041999104,
+      "rounds": 7,
+      "states": 10359532,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 10.002167458005715,
+      "rounds": 8,
+      "states": 11834260,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 10.330793417000677,
+      "rounds": 9,
+      "states": 11966266,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 10.685126083000796,
+      "rounds": 10,
+      "states": 12029260,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 11.019848708005156,
+      "rounds": 11,
+      "states": 12031132,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_reach",
+      "seconds": 11.356738292000955,
+      "rounds": 12,
+      "states": 12031132,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_fair_avoid",
+      "seconds": 18.307480749994284,
+      "rounds": 1,
+      "states": 12001084,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_fair_avoid",
+      "seconds": 29.946347542005242,
+      "rounds": 2,
+      "states": 11956060,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_fair_avoid",
+      "seconds": 40.95071074999578,
+      "rounds": 3,
+      "states": 11831836,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_fair_avoid",
+      "seconds": 49.432952250004746,
+      "rounds": 4,
+      "states": 11719324,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_fair_avoid",
+      "seconds": 54.13951387499401,
+      "rounds": 5,
+      "states": 4413764,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_fair_avoid",
+      "seconds": 55.01402562500152,
+      "rounds": 6,
+      "states": 1978,
+      "nodes": 548468
+    },
+    {
+      "label": "stage1_fair_avoid",
+      "seconds": 55.06576212499931,
+      "rounds": 7,
+      "states": 0,
+      "nodes": 548468
+    },
+    {
+      "label": "released_reach",
+      "seconds": 55.06890137499431,
+      "rounds": 1,
+      "states": 1024,
+      "nodes": 548468
+    }
+  ],
+  "wall_seconds": 55.071117291998235,
+  "cpu_seconds": 54.068937000000005,
+  "peak_rss_bytes": 313360384,
+  "processes": 1,
+  "cost_usd": 0,
+  "code_sha256": "27c465236d3cfaae418ba9ece764f52213a01331e109734c6d075438c91e23f3",
+  "receipt_annotation": "The original raw receipt key original_14_universally_mandatory quantified only over the enumerated optimal 14-sets; renamed here to state that scope. No necessity over all larger observation sets was checked."
+}
