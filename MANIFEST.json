@@ -7,6 +7,11 @@
       "sha256": "63f1201deaf76ffa70e709c7af6a8024162606128e7f0d0491c47407ff22f187"
     },
     {
+      "path": ".zenodo.json",
+      "size": 1245,
+      "sha256": "aa6d6e54de0c27eec2f439ef1b98fe8d70fe585b584d1e452852b552718f0e3d"
+    },
+    {
       "path": "Apache-2.0.txt",
       "size": 11358,
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"

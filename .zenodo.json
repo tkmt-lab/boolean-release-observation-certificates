@@ -1,0 +1,28 @@
+{
+  "title": "Fourteen observation bits for a fixed Boolean release protocol",
+  "upload_type": "dataset",
+  "description": "For one frozen 56-rule Boolean model of the epithelial-mesenchymal transition and a fixed two-stage intervention, 14 additional observation bits are necessary and sufficient for the specified release guard to meet the safety, eventual-release and post-release requirements; the optimal 14-bit set is unique (checked by one ROBDD route). Includes the witnesses, saved UNSAT certificates, a certificate consumer and a separate ROBDD checker. Only this frozen model, intervention, guard and candidate set; no biological validity claim; no human peer review. Text/data CC BY 4.0; code Apache 2.0.",
+  "creators": [
+    {
+      "name": "Tatsuhiko Takimoto",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Boolean network",
+    "epithelial-mesenchymal transition",
+    "observability",
+    "SAT certificate",
+    "ROBDD",
+    "minimal sensor set"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/tkmt-lab/boolean-release-observation-certificates",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
